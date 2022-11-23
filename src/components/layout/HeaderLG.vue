@@ -11,9 +11,9 @@
     <div class="flex justify-center backdrop-blur-lg  bg-gradient-to-b from-white  to-transparent px-10  opacity-10 ">
       <nav class="flex space-x-8  pt-10   font-league-gothic uppercase ">
         <RouterLink class="text-white hover:text-violet" to="/#OFFF">OFFF</RouterLink>
-        <RouterLink class="text-white hover:text-violet" to="/artistes">NFT </RouterLink>
-        <RouterLink class="text-white hover:text-violet" to="/festival"> FAQ</RouterLink>
-        <RouterLink class="text-white hover:text-violet" to="/festival/#billeterie">CONTACT </RouterLink>
+        <RouterLink class="text-white hover:text-violet" to="/#NFT">NFT </RouterLink>
+        <RouterLink class="text-white hover:text-violet" to="/#FAQ"> FAQ</RouterLink>
+        <RouterLink class="text-white hover:text-violet" to="/contact">CONTACT </RouterLink>
       </nav>
     </div>
 
