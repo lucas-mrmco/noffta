@@ -1,4 +1,4 @@
-<script setup>
+<!-- <script setup>
 
 </script>
 
@@ -24,4 +24,52 @@
 </template>
 
 
+ -->
 
+<script setup>
+import BoutonGenerator from "../buttons/BoutonGenerator.vue"
+import BoutonSignIn from "../buttons/BoutonSignIn.vue"
+</script>
+
+<template>
+
+  <header class="z-50 p-10 text-xl fixed w-full  ">
+    <RouterLink class="justify-start" to="/"><img src="../../../public/logo/logo-ref-standart.svg"
+        class="w-36 pt-5 mx-20" alt="logo noffta"></RouterLink>
+    <div class="flex justify-center backdrop-blur-2xl  bg-white px-28  bg-opacity-10 ">
+      <nav class="flex space-x-12 font-league-gothic uppercase mt-5 text-sm px-10  ">
+        <RouterLink to="/#OFFF">
+          <h2 class=" text-white hover:shadow-drop/drop-pink"> OFFF</h2>
+        </RouterLink>
+        <RouterLink to="/artistes">
+          <h2 class=" text-white hover:shadow-drop/drop-pink"> NFT</h2>
+        </RouterLink>
+        <RouterLink to="/festival">
+          <h2 class=" text-white hover:shadow-drop/drop-pink">FAQ</h2>
+        </RouterLink>
+        <RouterLink to="/festival/#billeterie">
+          <h2 class=" text-white hover:shadow-drop/drop-pink">CONTACT</h2>
+        </RouterLink>
+      </nav>
+    </div>
+
+    <div class="mx-20 flex space-x-8">
+      <BoutonGenerator />
+      <BoutonSignIn />
+    </div>
+  </header>
+</template>
+
+
+
+<style scoped>
+h2,
+h3 {
+  text-shadow: -1px 1.5px 0px #F81DFB;
+
+}
+
+h2:hover {
+  text-shadow: -1px 1.5px 0px white;
+}
+</style>

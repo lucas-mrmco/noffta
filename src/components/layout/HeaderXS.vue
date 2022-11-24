@@ -39,7 +39,7 @@
 <script>
 
 import Menu1 from "../icons/Menu.vue";
-import BoutonTransparent from "../buttons/BoutonTransparent.vue";
+import BoutonTransparent from "../buttons/BoutonSignin.vue";
 import Close from "../icons/Close.vue";
 export default {
   data() {
