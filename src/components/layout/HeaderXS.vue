@@ -1,4 +1,4 @@
-<template>
+<!-- <template>
   <header class=" p-5 top-0 fixed z-50 flex h-16 w-screen items-center shadow-xl">
     <Menu1 class="absolute right-4 w-12 h-auto" @click="MenuOpen = !MenuOpen" v-if="!MenuOpen" />
     <Close class="absolute right-4 z-50 w-12 h-auto" @click="MenuOpen = !MenuOpen" v-if="MenuOpen" />
@@ -33,7 +33,7 @@
       </ul>
     </nav>
   </header>
-</template>
+</template> -->
 
 
 <script>

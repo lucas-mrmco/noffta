@@ -41,13 +41,13 @@ import BoutonSignIn from "../buttons/BoutonSignIn.vue"
         <RouterLink to="/#OFFF">
           <h2 class=" text-white hover:shadow-drop/drop-pink"> OFFF</h2>
         </RouterLink>
-        <RouterLink to="/artistes">
+        <RouterLink to="/#NFT">
           <h2 class=" text-white hover:shadow-drop/drop-pink"> NFT</h2>
         </RouterLink>
-        <RouterLink to="/festival">
+        <RouterLink to="/#FAQ">
           <h2 class=" text-white hover:shadow-drop/drop-pink">FAQ</h2>
         </RouterLink>
-        <RouterLink to="/festival/#billeterie">
+        <RouterLink to="/contact">
           <h2 class=" text-white hover:shadow-drop/drop-pink">CONTACT</h2>
         </RouterLink>
       </nav>

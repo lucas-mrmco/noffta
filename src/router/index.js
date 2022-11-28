@@ -7,6 +7,9 @@ import Conditions from '../views/Conditions.vue';
 import Mentions from '../views/Mentions.vue';
 import Sponsors from '../views/Sponsors.vue';
 
+import Login from '../views/Login.vue'
+import Registration from '../views/Registration.vue'
+
 const router = createRouter({
   history: createWebHistory(import.meta.env.BASE_URL),
   routes: [
@@ -17,6 +20,9 @@ const router = createRouter({
     { path: '/conditions', name: 'Conditions', component: Conditions },
     { path: '/mentions', name: 'Mentions', component: Mentions },
     { path: '/sponsors', name: 'Sponsors', component: Sponsors },
+
+    { path: '/login', name: 'Login', component: Login },
+    { path: '/registration', name: 'Registration', component: Registration },
   ]
 })
 
