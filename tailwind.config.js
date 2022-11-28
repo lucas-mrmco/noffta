@@ -4,6 +4,10 @@ module.exports = {
     "./index.html",
     "./src/**/*.{vue,js,ts,jsx,tsx}",
   ],
+  backgroundImage: {
+    'map-barcelone': "url('/img/map-barcelone.png')",
+  },
+    
   theme: {
     extend: {
       "colors": {
@@ -21,14 +25,14 @@ module.exports = {
       "fontSize": {
         "sm": "0.875rem",
         "base": "1rem",
-        "lg": "1.5625rem",
-        "xl": "2.1875rem",
+        "lg": "2rem",
+        "xl": "3rem",
         "2xl": "4rem",
         "3xl": "6.25rem"
       },
       "fontFamily": {
         "nunito-sans": "Nunito Sans",
-        "lato": "Lato"
+        "lato": "Lato",
       },
       "boxShadow": {
         "néon-components/néon-pink": "-2px 2.5px 0px 0px rgba(248,29,251,1)",

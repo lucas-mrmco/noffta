@@ -3,7 +3,7 @@
 
     <body>
       <h2 class="font-nunito-sans text-center text-xl text-blanc-text">Contact</h2>
-      <div class="bg-mauve bg-opacity-20 w-2/3 mx-auto p-20 rounded-6xl ">
+      <div class="box bg-mauve bg-opacity-20 w-2/3 mx-auto p-20 rounded-15xl ">
         <p class="text-blanc-text font-lato text-sm">If you wish to contact us, please fill in the following information
           :</p>
         <form class="w-full max-w-lg">

@@ -3,15 +3,15 @@
 
 <template>
 
-<main class="pt-44 px-28">
+<main class="pt-12 px-28">
     <body>
 
         <h2 class="font-nunito-sans text-xl text-blanc-text mb-10 text-center">Registration</h2>
     
-        <div class="w-2/5 mx-auto ">
+        <div class="box bg-mauve bg-opacity-20 w-2/3 mx-auto p-20 rounded-15xl ">
             
         <form class="shadow-md rounded px-8 pt-6 pb-8 mb-4 ">
-
+       
         <div class="flex space-x-6">
             <div class="mb-4">
                 <label class="block text-white text-sm mb-2" for="firstname">
