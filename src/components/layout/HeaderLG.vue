@@ -1,31 +1,3 @@
-<!-- <script setup>
-
-</script>
-
-<template>
-
-  <header class="z-50 p-5 text-xl fixed w-full  ">
-    <RouterLink class="justify-start  " to="/"><img src="../../../public/logo/logo-ref-standart.svg" class="w-40 pt-5"
-        alt="">
-    </RouterLink>
-    <div class="flex justify-center backdrop-blur-lg  bg-gradient-to-b from-white  to-transparent px-10  opacity-10 ">
-      <nav class="flex space-x-8  pt-10   font-league-gothic uppercase ">
-        <RouterLink class="text-white hover:text-violet" to="/#OFFF">OFFF</RouterLink>
-        <RouterLink class="text-white hover:text-violet" to="/#NFT">NFT </RouterLink>
-        <RouterLink class="text-white hover:text-violet" to="/#FAQ"> FAQ</RouterLink>
-        <RouterLink class="text-white hover:text-violet" to="/contact">CONTACT </RouterLink>
-      </nav>
-    </div>
-
-  </header>
-
-
-
-</template>
-
-
- -->
-
 <script setup>
 import BoutonGenerator from "../buttons/BoutonGenerator.vue"
 import BoutonSignIn from "../buttons/BoutonSignIn.vue"
@@ -33,32 +5,51 @@ import BoutonSignIn from "../buttons/BoutonSignIn.vue"
 
 <template>
 
-  <header class="z-50 p-10 text-xl w-full  ">
-    <RouterLink class="justify-start" to="/"><img src="/logo/logo-ref-standart.svg"
-        class="w-36 pt-5 mx-20" alt="logo noffta"></RouterLink>
-    <div class="flex justify-center backdrop-blur-2xl  bg-white px-28  bg-opacity-10 ">
-      <nav class="flex space-x-12 font-league-gothic uppercase mt-5 text-sm px-10  ">
-        <RouterLink to="/#OFFF">
-          <h2 class=" text-white hover:shadow-drop/drop-pink"> OFFF</h2>
-        </RouterLink>
-        <RouterLink to="/#NFT">
-          <h2 class=" text-white hover:shadow-drop/drop-pink"> NFT</h2>
-        </RouterLink>
-        <RouterLink to="/#FAQ">
-          <h2 class=" text-white hover:shadow-drop/drop-pink">FAQ</h2>
-        </RouterLink>
-        <RouterLink to="/contact">
-          <h2 class=" text-white hover:shadow-drop/drop-pink">CONTACT</h2>
-        </RouterLink>
+  <header class="z-50 p-10 text-xl w-full space-x-80  ">
+    <!-- logo -->
+    <div>
+      <RouterLink class="justify-start" to="/"><img src="/logo/logo-ref-standart.svg" class="w-36 pt-5 mx-20"
+          alt="logo noffta"></RouterLink>
+    </div>
+    <!-- navigation  -->
+    <div class="py-1 px-10 bg-header-texture bg-no-repeat">
+      <nav class="  ">
+        <ul class=" flex space-x-14 font-nunito-sans   text-white   uppercase mt-5 text-sm px-10  ">
+          <li class="hover:text-rose">
+            <RouterLink to="/#OFFF">
+              <h2> OFFF</h2>
+            </RouterLink>
+          </li>
+          <li class="hover:text-rose">
+            <RouterLink to="/#NFT">
+              <h2> NFT</h2>
+            </RouterLink>
+          </li>
+          <li class="hover:text-rose">
+            <RouterLink to="/#FAQ">
+              <h2>FAQ</h2>
+            </RouterLink>
+          </li>
+          <li class="hover:text-rose">
+            <RouterLink to="/contact">
+              <h2>CONTACT</h2>
+            </RouterLink>
+          </li>
+        </ul>
+
       </nav>
     </div>
-
-    <div class="mx-20 flex space-x-8">
+    <!-- 2 boutons -->
+    <div class="  space-x-8 justify-end">
       <BoutonGenerator />
       <BoutonSignIn />
+
     </div>
+
+
   </header>
 </template>
+
 
 
 

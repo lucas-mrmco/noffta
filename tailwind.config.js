@@ -10,6 +10,10 @@ module.exports = {
     
   theme: {
     extend: {
+      backgroundImage: {
+        'header-texture': "url('/img/Header.webp')",
+        'footer-texture': "url('/img/Footer.webp')",
+      },
       backdropBlur: {
         xs: '20px',
       },
