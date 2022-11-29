@@ -10,6 +10,9 @@ module.exports = {
     
   theme: {
     extend: {
+      backdropBlur: {
+        xs: '20px',
+      },
       "colors": {
         "mauve": "#b00d9d",
         "rose": "#f81dfb",

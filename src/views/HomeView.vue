@@ -1,5 +1,6 @@
 <script setup>
 import RocketVue from '../components/Rocket.vue';
+import FooterVue from '../components/layout/Footer.vue';
 </script>
 
 <template>
@@ -14,7 +15,7 @@ import RocketVue from '../components/Rocket.vue';
               print your own NFT.</p>
         </div>
         <div>
-          <img class="content-center w-72 pt-20" src="/img/illustration.png" alt="illustration réseau NFT" />
+          <img class="content-center w-72 pt-20 " src="/img/illustration.png" alt="illustration réseau NFT" />
         </div>
     </div>
 
@@ -36,11 +37,12 @@ import RocketVue from '../components/Rocket.vue';
   
       <img src="/img/logos.png" class="pb-28 w-4/6 mx-auto" alt="éléments du projet" />
 
-
-      <div class="bg-[url('/img/map-barcelone.png')] w-screen h-screen bg-cover bg-no-repeat z-40">
-        <h3 class="font-nunito-sans text-lg text-blanc-text px-36">What is NOFFTA ?</h3>
-          <p class="px-36 text-white">Another way to leave a footstep in the OFFF.</p>
-      </div>
+      <h3 class="font-nunito-sans text-lg  text-blanc-text px-36 ">What is NOFFTA ?</h3>
+          <p class="px-36 text-white -mb-96 ">Another way to leave a footstep in the OFFF.</p>
+      <img src="/img/map-barcelone.png" class="" alt="looper" />
+        
+     
+        
 
 
 
@@ -50,9 +52,12 @@ import RocketVue from '../components/Rocket.vue';
       <div class="pt-12 px-36">
           </div>
 
-
+          
     
   </main>
+  <footer>
+    <FooterVue />
+  </footer>
 </template>
 
 <style scoped>

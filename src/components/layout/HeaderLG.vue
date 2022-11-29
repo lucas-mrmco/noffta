@@ -34,7 +34,7 @@ import BoutonSignIn from "../buttons/BoutonSignIn.vue"
 <template>
 
   <header class="z-50 p-10 text-xl w-full  ">
-    <RouterLink class="justify-start" to="/"><img src="../../../public/logo/logo-ref-standart.svg"
+    <RouterLink class="justify-start" to="/"><img src="/logo/logo-ref-standart.svg"
         class="w-36 pt-5 mx-20" alt="logo noffta"></RouterLink>
     <div class="flex justify-center backdrop-blur-2xl  bg-white px-28  bg-opacity-10 ">
       <nav class="flex space-x-12 font-league-gothic uppercase mt-5 text-sm px-10  ">
