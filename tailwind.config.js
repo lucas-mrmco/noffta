@@ -7,7 +7,7 @@ module.exports = {
   backgroundImage: {
     'map-barcelone': "url('/img/map-barcelone.png')",
   },
-    
+
   theme: {
     extend: {
       backgroundImage: {
@@ -15,7 +15,7 @@ module.exports = {
         'footer-texture': "url('/img/Footer.webp')",
         'tuto-texture': "url('/img/tuto-texture.png')",
         'newsletter': "url('/img/newsletter.png')",
-
+        'bouton-generator': "url('/icons/Button-create.svg')",
       },
       backdropBlur: {
         xs: '20px',

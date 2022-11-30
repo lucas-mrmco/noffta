@@ -37,7 +37,7 @@ a,
 
 
 
- .box {
+.box {
   position: relative;
 }
 
@@ -55,3 +55,59 @@ a,
   mask-composite: exclude;
 }
 
+.linear2 {
+  background-image: linear-gradient(45deg, #ffffff40, #ffffff00);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  /* backdrop-filter: blur(50px);
+  -webkit-backdrop-filter: blur(5px);
+  -moz-filter: blur(5px);
+  -o-filter: blur(5px); */
+  /* -ms-filter: blur(5px); */
+  /* filter: blur(5px); */
+
+}
+
+/* Position text in the middle of the page/image */
+.bg-text {
+  /* Black w/opacity/see-through */
+  color: white;
+  font-weight: bold;
+
+  z-index: 2;
+  text-align: center;
+}
+
+.degrade-text {
+  background-image: linear-gradient(to right top, rose white);
+  -webkit-background-clip: text;
+  color: transparent;
+  /* width: 220px;
+  display: block; */
+
+}
+
+.btn__signin {
+  appearance: none;
+  background-color: salmon;
+
+  text-align: center;
+  position: absolute;
+  right: 0;
+  display: table;
+  padding: 0;
+  clip-path: path("M16.4611 14.0699C25.7864 5.04539 38.2551 0 51.2322 0H110H144V30H0L16.4611 14.0699Z");
+  z-index: 50;
+  right: -16px;
+  top: 70px;
+}
+
+.contain__signin {
+  display: table-cell;
+  vertical-align: middle;
+  text-decoration: none;
+  color: white;
+  float: middle;
+  text-transform: uppercase;
+}

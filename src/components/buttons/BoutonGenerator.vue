@@ -1,4 +1,4 @@
-<template>
+<!-- <template>
 
     <a href="/generator" class="flex-row justify-end ">
         <button type="button"
@@ -7,4 +7,11 @@
         </button>
     </a>
 
+</template> -->
+
+<template>
+    <button
+        class="bg-bouton-generator bg-no-repeat bg-clip-padding  align-middle place-items-stretch  h-3 p-8   text-center text-white text-lg  font-light">
+        generator
+    </button>
 </template>

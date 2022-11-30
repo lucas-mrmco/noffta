@@ -5,14 +5,14 @@ import BoutonSignIn from "../buttons/BoutonSignIn.vue"
 
 <template>
 
-  <header class="z-50 p-10 text-xl w-full space-x-80  ">
+  <header class="z-50 p-10 text-xl w-full lg:space-x-20 space-x-10">
     <!-- logo -->
     <div>
       <RouterLink class="justify-start" to="/"><img src="/logo/logo-ref-standart.svg" class="w-36 pt-5 mx-20"
           alt="logo noffta"></RouterLink>
     </div>
     <!-- navigation  -->
-    <div class="py-1 px-10 bg-header-texture bg-no-repeat">
+    <div class="py-1 lg:px-10 px-4 bg-header-texture bg-no-repeat">
       <nav class="  ">
         <ul class=" flex space-x-14 font-nunito-sans   text-white   uppercase mt-5 text-sm px-10  ">
           <li class="hover:text-rose">
@@ -40,7 +40,7 @@ import BoutonSignIn from "../buttons/BoutonSignIn.vue"
       </nav>
     </div>
     <!-- 2 boutons -->
-    <div class="  space-x-8 justify-end">
+    <div class="-ml-40 flex  max-w-md  space-x-2 lg:space-x-8 justify-end  ">
       <BoutonGenerator />
       <BoutonSignIn />
 
