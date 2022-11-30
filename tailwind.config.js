@@ -13,6 +13,9 @@ module.exports = {
       backgroundImage: {
         'header-texture': "url('/img/Header.webp')",
         'footer-texture': "url('/img/Footer.webp')",
+        'tuto-texture': "url('/img/tuto-texture.png')",
+        'newsletter': "url('/img/newsletter.png')",
+
       },
       backdropBlur: {
         xs: '20px',

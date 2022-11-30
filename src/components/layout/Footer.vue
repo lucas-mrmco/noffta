@@ -157,8 +157,8 @@
       </div>
     
       <div class="flex space-x-6 text-sm text-gray-300 sm:text-center ml-auto ">
-       <RouterLink to="/" class="hover:underline ">Privacy Policy</RouterLink>
-       <RouterLink to="/" class="hover:underline ">Terms of Service</RouterLink>
+       <RouterLink to="/mentions" class="hover:underline ">Privacy Policy</RouterLink>
+       <RouterLink to="/conditions" class="hover:underline ">Terms of Service</RouterLink>
     </div>
 
   </div>
@@ -169,7 +169,6 @@
 </template>
 
 <script>
-import BoutonSendVue from '../buttons/BoutonSend.vue';
 
 
 </script>
