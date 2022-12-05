@@ -3,7 +3,7 @@
 
 <template>
 
-<main class=" px-28">
+<main class="pt-12 px-28">
     <body>
 
         <h2 class="font-nunito-sans text-xl text-blanc-text mb-10 text-center">Login</h2>
@@ -37,7 +37,7 @@
             </RouterLink>
             </div>
             <div>
-            <RouterLink to="/profil" class="flex-row justify-end">
+            <RouterLink to="/login" class="flex-row justify-end">
                 <button type="button" class="w-36 text-base rounded-3xl border-2 bg-mauve p-3 text-center text-white font-light ">
                     SIGN IN
                 </button>
