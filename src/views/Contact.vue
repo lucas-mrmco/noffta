@@ -1,5 +1,5 @@
 <template>
-  <main class="pt-12 px-20">
+  <main class="mx-36 pb-20">
 
     <body>
       <h2 class="font-nunito-sans text-center text-xl text-blanc-text pb-10">Contact</h2>
@@ -56,8 +56,57 @@
             <div class="md:w-2/3"></div>
           </div>
         </form>
-
       </div>
+
+
+        <div class="pt-96 grid grid-cols-2 md:grid-cols-4 sm:grid-cols-2 gap-x-4 justify-items-center ">  
+
+          <div>
+            <img src="img/marion.png" class="w-52" alt="photo de marion gillot" />
+            <p class="text-white pt-4 pb-4 text-center">Marion Gillot</p>
+          </div>
+          <div>
+            <img src="img/lucas.png" class="w-52" alt="photo de lucas moramarco" />
+            <p class="text-white pt-4 pb-4 text-center">Lucas Moramarco</p>
+          </div>
+          <div>
+            <img src="img/arthur.png" class="w-52" alt="photo de arthur meyer" />
+            <p class="text-white pt-4 pb-4 text-center">Arthur Meyer</p>
+          </div>
+          <div>
+            <img src="img/agathe.png" class="w-52" alt="photo de agathe eccher" />
+            <p class="text-white pt-4 pb-4 text-center">Agathe Eccher</p>
+          </div>
+          
+        </div>
+
+
+        <div class="pt-20 grid grid-cols-1 md:grid-cols-2 sm:grid-cols-2 pb-20 justify-items-center ">  
+
+        <div>
+          <h3 class="font-nunito-sans text-lg text-blanc-text pb-10">Who are we?</h3>
+          <p class="text-white pt-4 pb-4 w-2/3 ">We are 2 designers, 1 communicator, and 1 developer. 
+            All four of us are second year students in MMi, Métier du Multimédia et de l'Internet, at the IUT of Montbéliard (25) in France.  </p>
+        </div>
+        <div>
+          <h3 class="font-nunito-sans text-lg text-blanc-text pb-10">What are our missions?</h3>
+          <p class="text-white pt-4 pb-4 w-2/3 ">As a pedagogical exercise, our mission is to create an online NFT generator, while offering you the best possible use and experience. </p>
+        </div>
+        </div>
+  
+
+        <div class="flex space-x-20">
+            <img src="img/paypal.png" class="w-20 h-24" />
+            <h2 class="font-nunito-sans text-xl text-blanc-text pb-10">Soutenez-nous</h2>
+        </div>
+
+        <p class="text-white mx-40 w-2/5 pb-3">If you are interested in our project, you can contribute to its success! 
+        </p>
+
+        <span class="text-sm text-white mx-40 w-2/5 font-bold sm:text-center ">Here is our paypal link : 
+        <Routerlink to="https://noffta.com/" class="hover:underline"> https://</Routerlink> 
+      </span>
+
 
     </body>
 
@@ -69,5 +118,6 @@
 h2,
 h3 {
   text-shadow: -1px 1.5px 0px #F81DFB;
+  color: white;
 }
 </style>

@@ -10,14 +10,14 @@
     
         <div class="box bg-mauve bg-opacity-20 w-2/3 mx-auto p-20 rounded-15xl ">
             
-        <form class=" rounded px-8 pt-6 pb-8 mb-4 ">
-        <div class="mb-4">
+        <form class=" rounded px-20 pt-6  mb-4 ">
+        <div class="mb-4 px-14">
             <label class="block text-white text-sm mb-2" for="userna">
             EMAIL
             </label>
             <input class="shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline" id="username" type="text" >
         </div>
-        <div class="mb-6">
+        <div class="mb-6 px-14">
             <label class="block text-white text-sm mb-2" for="password">
             PASSWORD
             </label>
@@ -37,7 +37,7 @@
             </RouterLink>
             </div>
             <div>
-            <RouterLink to="/login" class="flex-row justify-end">
+            <RouterLink to="/profil" class="flex-row justify-end">
                 <button type="button" class="w-36 text-base rounded-3xl border-2 bg-mauve p-3 text-center text-white font-light ">
                     SIGN IN
                 </button>
@@ -47,7 +47,7 @@
         </form>
     </div>
 
-    <h4 class="text-white text-center mb-8">Other ways to login</h4>
+    <h4 class="text-white text-center mb-8 pt-10">Other ways to login</h4>
     <div class="space-x-6 flex justify-center">
         <img src="/public/icons/google.png" alt="google connexion">
         <img src="/public/icons/facebook.png" alt="facebook connexion">
@@ -64,3 +64,4 @@ h3 {
   text-shadow: -1px 1.5px 0px #F81DFB;
 }
 </style>
+
