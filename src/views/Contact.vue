@@ -1,5 +1,5 @@
 <template>
-  <main class="mx-36 pb-20">
+  <main class="mx-36 pb-20 pt-10">
 
     <body>
       <h2 class="font-nunito-sans text-center text-xl text-blanc-text pb-10">Contact</h2>

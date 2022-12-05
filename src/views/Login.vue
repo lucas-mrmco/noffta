@@ -3,7 +3,7 @@
 
 <template>
 
-<main class="pt-12 px-28">
+<main class="pt-10 px-28">
     <body>
 
         <h2 class="font-nunito-sans text-xl text-blanc-text mb-10 text-center">Login</h2>

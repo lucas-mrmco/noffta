@@ -3,7 +3,7 @@ import FooterVue from '../components/layout/Footer.vue'
 </script>
 
 <template>
-  <main class="pt-32 px-28">
+  <main class="pt-10 px-28">
 
     <body>
       <h2 class="font-nunito-sans text-xl text-blanc-text pb-10">Privacy Policy</h2>

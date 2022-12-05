@@ -1,7 +1,7 @@
 <template>
   <main>
       <body>
-        <div class="mx-28">
+        <div class="mx-28 pt-10">
 
           <div class="mx-auto pb-16">
           <div class="flex pb-6 place-content-center">
