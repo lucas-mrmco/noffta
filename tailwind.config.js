@@ -7,7 +7,7 @@ module.exports = {
   backgroundImage: {
     'map-barcelone': "url('/img/map-barcelone.png')",
   },
-
+    
   theme: {
     extend: {
       backgroundImage: {
@@ -15,7 +15,8 @@ module.exports = {
         'footer-texture': "url('/img/Footer.webp')",
         'tuto-texture': "url('/img/tuto-texture.png')",
         'newsletter': "url('/img/newsletter.png')",
-        'bouton-generator': "url('/icons/Button-create.svg')",
+        'looper':"url('/img/Looper-dk.png')",
+
       },
       backdropBlur: {
         xs: '20px',
@@ -28,9 +29,11 @@ module.exports = {
         "fond site": "#140c1f",
         "blanc-text": "#ffffff",
         "violet-casse": "#e0d1ff",
+        "violet-profil": '#4B50E6',
         "gris-clair": "#e2e2e2",
         "orange": "#FC6767",
-        "fond-site": "#140C1F"
+        "fond-site": "#140C1F",
+        "fond-profil": "#3D3D3D",
       },
       "fontSize": {
         "sm": "0.875rem",
