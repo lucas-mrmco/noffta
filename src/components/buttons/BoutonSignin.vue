@@ -1,8 +1,8 @@
 <template>
 
-  <RouterLink to="/login" class="flex-row justify-end">
+  <RouterLink to="/login" class="">
     <button type="button"
-      class="lg:w-36  text-base rounded-3xl border-2 bg-mauve p-3 text-center text-white font-light ">
+      class="bg-bouton-sign px-12  py-3.5 text-base text-blanc-text hover:shadow-néon-components/néon-pink bg-cover">
       SIGN IN
     </button>
   </RouterLink>
