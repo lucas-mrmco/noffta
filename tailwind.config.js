@@ -17,8 +17,9 @@ module.exports = {
         'newsletter': "url('/img/newsletter.png')",
         'looper': "url('/img/Looper-dk.png')",
         'bouton-sign': "url('/img/Button-sign.png')",
-        'bouton-generator': "url('/img/Button-generator.png')",
 
+        'bouton-generator': "url('/img/Button-generator.png')",
+        'bouton-generator1': "url('/img/Button-generator1.png')",
       },
       backdropBlur: {
         xs: '20px',

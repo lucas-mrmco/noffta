@@ -2,7 +2,7 @@
 
     <RouterLink to="/generator" class="">
         <button type="button"
-            class="bg-bouton-generator  px-11 py-3.5 text-base   text-blanc-text hover:shadow-néon-components/néon-pink bg-cover">
+            class="bg-bouton-generator1  px-8 py-4 text-base   text-blanc-text hover:shadow-néon-components/néon-pink bg-cover">
             GENERATOR
         </button>
     </RouterLink>

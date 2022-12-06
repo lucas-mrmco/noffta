@@ -2,7 +2,7 @@
 
   <RouterLink to="/login" class="">
     <button type="button"
-      class="bg-bouton-sign px-12  py-3.5 text-base text-blanc-text hover:shadow-néon-components/néon-pink bg-cover">
+      class="bg-bouton-sign px-16 bg-no-repeat  py-4 text-base text-blanc-text hover:shadow-néon-components/néon-pink ">
       SIGN IN
     </button>
   </RouterLink>
