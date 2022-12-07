@@ -4,9 +4,6 @@ module.exports = {
     "./index.html",
     "./src/**/*.{vue,js,ts,jsx,tsx}",
   ],
-  backgroundImage: {
-    'map-barcelone': "url('/img/map-barcelone.png')",
-  },
 
   theme: {
     extend: {
@@ -17,7 +14,7 @@ module.exports = {
         'newsletter': "url('/img/newsletter.png')",
         'looper': "url('/img/Looper-dk.png')",
         'bouton-sign': "url('/img/Button-sign.png')",
-
+        'map-barcelone': "url('/img/map-barcelone.png')",
         'bouton-generator': "url('/img/Button-generator.png')",
         'bouton-generator1': "url('/img/Button-generator1.png')",
       },
@@ -41,6 +38,7 @@ module.exports = {
       "fontSize": {
         "sm": "0.875rem",
         "base": "1rem",
+        "md": "1.5rem",
         "lg": "2rem",
         "xl": "3rem",
         "2xl": "4rem",

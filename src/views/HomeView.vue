@@ -10,11 +10,14 @@ import BoutonSecondaryA from '../components/buttons/BoutonSign.vue';
 
     <div class="px-36">
 
-      <div class="flex content-between space-x-32 pb-8">
+      <div class="flex  space-x-32  pb-8 z-0">
         <div class="w-2/4">
-          <h2 class="font-nunito-sans text-xl text-blanc-text  pb-6 pt-10">Noffta supports you in the creation of NFT
+          <h2 class="font-nunito-sans space-y-8 text-xl text-blanc-text  pb-6 pt-10">Noffta supports you in the creation
+            of NFT
           </h2>
-          <p class="text-blanc-text font-lato text-lg w-4/5 ">Indeed, you will be able to design, modify, sign, publish
+          <p class="text-blanc-text font-lato text-md w-4/6 space-x-2  ">Indeed, you will be able to design, modify,
+            sign,
+            publish
             and even
             print your own NFT.</p>
         </div>
@@ -24,96 +27,99 @@ import BoutonSecondaryA from '../components/buttons/BoutonSign.vue';
       </div>
 
 
-      <div class="flex space-x-4 ">
-        <button class="rounded-7xl h-11 w-32 bg-gradient-to-r from-mauve to-orange inline-flex items-center p-6">
-          <RocketVue />
-          <span class="text-blanc-text font-lato text-sm">Create</span>
-        </button>
-        <button class="rounded-7xl h-11 w-44 border-gradient-to-r from-mauve to-orange inline-flex items-center p-6">
-          <RocketVue />
-          <span class="text-blanc-text font-lato text-sm">Explore all</span>
-        </button>
+      <div class="flex space-x-10 z-30 -mt-10 ">
+        <RouterLink to="/generator/#create" class="">
+          <button
+            class="rounded-7xl h-11 w-32  bg-gradient-to-r from-mauve to-orange inline-flex items-center p-6 hover:shadow-drop/drop-pink">
+            <RocketVue />
+            <span class="text-blanc-text font-lato text-sm">Create</span>
+          </button>
+        </RouterLink>
 
-        <button class="text-white items-center z-10 h-11 w-44 text-center place-content-center " type="button">
-          <BoutonSecondaryA />
-          <span class="text-blanc-text font-lato text-sm uppercase text-center">Sign in</span>
-        </button>
+        <RouterLink to="/generator/#explore" class="">
+          <button
+            class="rounded-7xl h-11 w-32 box-s hover:shadow-drop/drop-white-s  inline-flex items-center py-6 px-2 space-x-2 ">
+            <img src="/icons/explore.svg" alt="" class="pl-2 w-8">
+            <span class="text-blanc-text font-lato text-sm">Explore all</span>
+          </button>
 
+        </RouterLink>
 
       </div>
 
     </div>
-    <img src="/img/Looper-dk.png" class="-z-30 w-screen -mt-96" alt="looper" />
+    <img src="/img/Looper-dk.png" class="-z-50 w-screen -mt-80" alt="looper" />
 
 
     <img src="/img/logos.png" class="pb-28 w-4/6 mx-auto" alt="éléments du projet" />
+    <div class="bg-map-barcelone bg-no-repeat bg-cover bg- ">
+      <div class="px-36 ">
 
-    <div class="px-36">
-
-      <h3 class="font-nunito-sans text-lg  text-blanc-text pb-20">What is NOFFTA ?</h3>
-      <p class=" text-white italic text-base w-72 pb-12 ">Another way to leave a footstep in the OFFF.</p>
-
-
-      <img src="/img/offf.webp" class="w-72 pb-12" alt="logo du OFFF" />
-      <p class="text-white w-96 pb-20">Our project is linked to the OFFF Festival in Barcelona. We are setting up an NFT
-        generator accessible to festival
-        goers and we would like to have a stand to give them a ticket with their nft printed on it.</p>
-      <maposm />
-
-      <h3 class="font-nunito-sans text-lg  text-blanc-text ">HOW CREATE YOUR WITH NOFFTA ?</h3>
-    </div>
+        <h3 class="font-nunito-sans text-lg  text-blanc-text pb-20">What is NOFFTA ?</h3>
+        <p class=" text-white italic text-base w-72 pb-12 ">Another way to leave a footstep in the OFFF.</p>
 
 
-    <div class="bg-tuto-texture bg-no-repeat pb-10 pt-32">
+        <img src="/img/offf.webp" class="w-72 pb-12" alt="logo du OFFF" />
+        <p class="text-white w-96 pb-20">Our project is linked to the OFFF Festival in Barcelona. We are setting up an
+          NFT
+          generator accessible to festival
+          goers and we would like to have a stand to give them a ticket with their nft printed on it.</p>
+        <maposm />
 
-      <div class="grid grid-cols-3 pb-16 px-60">
-        <div>
-          <h4 class="text-white text-center text-lg">1</h4>
-          <img src="icons/1.svg" class="mx-auto" alt="étape 1" />
-          <p class="text-white  text-center">Open the form Preferably on your smartphone</p>
-        </div>
-
-
-        <div>
-          <h4 class="text-white text-center text-lg">2</h4>
-          <img src="icons/2.svg" class="mx-auto" alt="étape 2" />
-          <p class="text-white  text-center">Answer 10 questions</p>
-        </div>
-
-
-        <div>
-          <h4 class="text-white text-center text-lg">3</h4>
-          <img src="icons/3.svg" class="mx-auto" alt="étape 3" />
-          <p class="text-white  text-center">Select your favorite NFT amoung 3</p>
-        </div>
+        <h3 class="font-nunito-sans text-lg  text-blanc-text ">HOW CREATE YOUR WITH NOFFTA ?</h3>
       </div>
 
 
-      <div class="grid grid-cols-3  px-60">
-        <div>
-          <h4 class="text-white text-center text-lg">4</h4>
-          <img src="icons/4.svg" class="mx-auto" alt="étape 4" />
-          <p class="text-white  text-center">Customize your NFT (sign & distort)</p>
+      <div class="bg-tuto-texture bg-no-repeat pb-10 pt-32">
+
+        <div class="grid grid-cols-3 pb-16 px-60">
+          <div>
+            <h4 class="text-white text-center text-lg">1</h4>
+            <img src="icons/1.svg" class="mx-auto" alt="étape 1" />
+            <p class="text-white  text-center">Open the form Preferably on your smartphone</p>
+          </div>
+
+
+          <div>
+            <h4 class="text-white text-center text-lg">2</h4>
+            <img src="icons/2.svg" class="mx-auto" alt="étape 2" />
+            <p class="text-white  text-center">Answer 10 questions</p>
+          </div>
+
+
+          <div>
+            <h4 class="text-white text-center text-lg">3</h4>
+            <img src="icons/3.svg" class="mx-auto" alt="étape 3" />
+            <p class="text-white  text-center">Select your favorite NFT amoung 3</p>
+          </div>
         </div>
 
 
-        <div>
-          <h4 class="text-white text-center text-lg">5</h4>
-          <img src="icons/5.svg" class="mx-auto" alt="étape 5" />
-          <p class="text-white  text-center">Save it to your account</p>
-        </div>
+        <div class="grid grid-cols-3  px-60">
+          <div>
+            <h4 class="text-white text-center text-lg">4</h4>
+            <img src="icons/4.svg" class="mx-auto" alt="étape 4" />
+            <p class="text-white  text-center">Customize your NFT (sign & distort)</p>
+          </div>
 
 
-        <div>
-          <h4 class="text-white text-center text-lg">6</h4>
-          <img src="icons/6.svg" class="mx-auto" alt="étape 6" />
-          <p class="text-white  text-center">Join us at OFFF to receive your ticket with printed NFT</p>
+          <div>
+            <h4 class="text-white text-center text-lg">5</h4>
+            <img src="icons/5.svg" class="mx-auto" alt="étape 5" />
+            <p class="text-white  text-center">Save it to your account</p>
+          </div>
+
+
+          <div>
+            <h4 class="text-white text-center text-lg">6</h4>
+            <img src="icons/6.svg" class="mx-auto" alt="étape 6" />
+            <p class="text-white  text-center">Join us at OFFF to receive your ticket with printed NFT</p>
+          </div>
         </div>
+
       </div>
 
     </div>
-
-
     <div class="px-36">
       <img src="/img/BARCELONA.png" class="w-2/5 ml-auto pb-20" alt="barcelone" />
 

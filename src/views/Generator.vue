@@ -20,7 +20,7 @@
         <p class="text-blanc-text font-nunito-sans text-sm text-center">Step 1/10</p>
         <div class="rounded-2xl w-80 h-60 mx-auto  mt-10 bg-gradient-to-r p-1 from-mauve to-orange">
           <div class="flex flex-col justify-between h-full bg-fond-site text-white rounded-lg p-4">
-            <p class="text-blanc-text font-lato text-sm bold text-center">Have you ever attended the OFFF ?</p>
+            <p class="text-blanc-text font-lato text-sm bold text-center">Have you ever attended the OFFF?</p>
             <div class="flex items-center">
               <input id="default-radio-1" type="radio" value="" name="default-radio"
                 class=" w-4 h-4 bg-gradient-to from-rose to-mauve border-rose focus:ring-rose">
@@ -34,7 +34,7 @@
           </div>
         </div>
       </div>
-      <label for="carousel-5"
+      <label for="carousel-10"
         class="prev control-1 w-10 h-10 ml-2 md:ml-10 absolute cursor-pointer hidden text-3xl font-bold text-blanc-text hover:text-rose rounded-full leading-tight text-center z-10 inset-y-0 left-0 my-auto">‹</label>
       <label for="carousel-2"
         class="next control-1 w-10 h-10 mr-2 md:mr-10 absolute cursor-pointer hidden text-3xl font-bold text-blanc-text hover:text-rose rounded-full leading-tight text-center z-10 inset-y-0 right-0 my-auto">›</label>
@@ -45,7 +45,7 @@
         <p class="text-blanc-text font-nunito-sans text-sm text-center">Step 2/10</p>
         <div class="rounded-2xl w-80 h-60 mx-auto  mt-10 bg-gradient-to-r p-1 from-mauve to-orange">
           <div class="flex flex-col justify-between h-full bg-fond-site text-white rounded-lg p-4">
-            <p class="text-blanc-text font-lato text-sm bold text-center">When was the last time you went to the OFFF ?
+            <p class="text-blanc-text font-lato text-sm bold text-center">When was the last time you went to the OFFF?
             </p>
             <div class="flex items-center">
               <input id="default-radio-1" type="radio" value="" name="default-radio"
@@ -122,7 +122,7 @@
       <p class="text-blanc-text font-nunito-sans text-sm text-center">Step 4/10</p>
       <div class="rounded-2xl w-80 h-60 mx-auto  mt-10 bg-gradient-to-r p-1 from-mauve to-orange">
         <div class="flex flex-col h-full bg-fond-site text-white rounded-lg p-4">
-          <p class="text-blanc-text font-lato text-sm bold text-center">Have you ever attended the OFFF ? </p>
+          <p class="text-blanc-text font-lato text-sm bold text-center">Have you ever attended the OFFF?</p>
           <div class="flex justify-evenly mt-20">
 
             <p class="font-lato text-sm bold text-blanc-text mr-5">Bad</p>
@@ -159,38 +159,170 @@
       class="prev control-4 w-10 h-10 ml-2 md:ml-10 absolute cursor-pointer hidden text-3xl font-bold text-blanc-text hover:text-rose rounded-full leading-tight text-center z-10 inset-y-0 left-0 my-auto">‹</label>
     <label for="carousel-5"
       class="next control-4 w-10 h-10 mr-2 md:mr-10 absolute cursor-pointer hidden text-3xl font-bold text-blanc-text hover:text-rose rounded-full eading-tight text-center z-10 inset-y-0 right-0 my-auto">›</label>
-  </div>
 
-  <!--Slide 5-->
-  <input class="carousel-open" type="radio" id="carousel-2" name="carousel" aria-hidden="true" hidden="">
-  <div class="carousel-item absolute opacity-0" style="height:50vh;">
-    <p class="text-blanc-text font-nunito-sans text-sm text-center">Step 5/10</p>
-    <div class="rounded-2xl w-80 h-60 mx-auto  mt-10 bg-gradient-to-r p-1 from-mauve to-orange">
-      <div class="flex flex-col justify-between h-full bg-fond-site text-white rounded-lg p-4">
-        <p class="text-blanc-text font-lato text-sm bold text-center">Do you plan to go next season?</p>
-        <div class="flex items-center">
-          <input id="default-radio-1" type="radio" value="" name="default-radio"
-            class=" w-4 h-4 bg-gradient-to from-rose to-mauve border-rose focus:ring-rose">
-          <label for="default-radio-1" class="ml-2 font-lato text-sm bold text-blanc-text">Yes</label>
-        </div>
-        <div class="flex items-center">
-          <input checked id="default-radio-2" type="radio" value="" name="default-radio"
-            class="w-4 h-4 bg-gradient-to from-rose to-mauve border-rose ">
-          <label for="default-radio-2" class="ml-2 font-lato text-sm bold text-blanc-text">No</label>
-        </div>
-        <div class="flex items-center">
-          <input checked id="default-radio-3" type="radio" value="" name="default-radio"
-            class="w-4 h-4 bg-gradient-to from-rose to-mauve border-rose ">
-          <label for="default-radio-3" class="ml-2 font-lato text-sm bold text-blanc-text">I don’t know</label>
+
+    <!--Slide 5-->
+    <input class="carousel-open" type="radio" id="carousel-5" name="carousel" aria-hidden="true" hidden="">
+    <div class="carousel-item absolute opacity-0" style="height:50vh;">
+      <p class="text-blanc-text font-nunito-sans text-sm text-center">Step 5/10</p>
+      <div class="rounded-2xl w-80 h-60 mx-auto  mt-10 bg-gradient-to-r p-1 from-mauve to-orange">
+        <div class="flex flex-col justify-between h-full bg-fond-site text-white rounded-lg p-4">
+          <p class="text-blanc-text font-lato text-sm bold text-center">Do you plan to go next season?</p>
+          <div class="flex items-center">
+            <input id="default-radio-1" type="radio" value="" name="default-radio"
+              class=" w-4 h-4 bg-gradient-to from-rose to-mauve border-rose focus:ring-rose">
+            <label for="default-radio-1" class="ml-2 font-lato text-sm bold text-blanc-text">Yes</label>
+          </div>
+          <div class="flex items-center">
+            <input checked id="default-radio-2" type="radio" value="" name="default-radio"
+              class="w-4 h-4 bg-gradient-to from-rose to-mauve border-rose ">
+            <label for="default-radio-2" class="ml-2 font-lato text-sm bold text-blanc-text">No</label>
+          </div>
+          <div class="flex items-center">
+            <input checked id="default-radio-3" type="radio" value="" name="default-radio"
+              class="w-4 h-4 bg-gradient-to from-rose to-mauve border-rose ">
+            <label for="default-radio-3" class="ml-2 font-lato text-sm bold text-blanc-text">I don’t know</label>
+          </div>
         </div>
       </div>
     </div>
-  </div>
-  <label for="carousel-4"
-    class="prev control-5 w-10 h-10 ml-2 md:ml-10 absolute cursor-pointer hidden text-3xl font-bold text-blanc-text hover:text-rose rounded-full leading-tight text-center z-10 inset-y-0 left-0 my-auto">‹</label>
-  <label for="carousel-1"
-    class="next control-5 w-10 h-10 mr-2 md:mr-10 absolute cursor-pointer hidden text-3xl font-bold text-blanc-text hover:text-rose rounded-full eading-tight text-center z-10 inset-y-0 right-0 my-auto">›</label>
+    <label for="carousel-4"
+      class="prev control-5 w-10 h-10 ml-2 md:ml-10 absolute cursor-pointer hidden text-3xl font-bold text-blanc-text hover:text-rose rounded-full leading-tight text-center z-10 inset-y-0 left-0 my-auto">‹</label>
+    <label for="carousel-6"
+      class="next control-5 w-10 h-10 mr-2 md:mr-10 absolute cursor-pointer hidden text-3xl font-bold text-blanc-text hover:text-rose rounded-full eading-tight text-center z-10 inset-y-0 right-0 my-auto">›</label>
 
+    <!--Slide 6-->
+    <input class="carousel-open" type="radio" id="carousel-6" name="carousel" aria-hidden="true" hidden=""
+      checked="checked">
+    <div class="carousel-item absolute opacity-0" style="height:50vh;">
+      <p class="text-blanc-text font-nunito-sans text-sm text-center">Step 6/10</p>
+      <div class="rounded-2xl w-80 h-60 mx-auto  mt-10 bg-gradient-to-r p-1 from-mauve to-orange">
+        <div class="flex flex-col justify-between h-full bg-fond-site text-white rounded-lg p-4">
+          <p class="text-blanc-text font-lato text-sm bold text-center">What subject interests you the most?</p>
+          <div class="flex items-center">
+            <input id="default-radio-1" type="radio" value="" name="default-radio"
+              class=" w-4 h-4 bg-gradient-to from-rose to-mauve border-rose focus:ring-rose">
+            <label for="default-radio-1" class="ml-2 font-lato text-sm bold text-blanc-text">Yes</label>
+          </div>
+          <div class="flex items-center">
+            <input checked id="default-radio-2" type="radio" value="" name="default-radio"
+              class="w-4 h-4 bg-gradient-to from-rose to-mauve border-rose ">
+            <label for="default-radio-2" class="ml-2 font-lato text-sm bold text-blanc-text">No</label>
+          </div>
+        </div>
+      </div>
+    </div>
+    <label for="carousel-5"
+      class="prev control-6 w-10 h-10 ml-2 md:ml-10 absolute cursor-pointer hidden text-3xl font-bold text-blanc-text hover:text-rose rounded-full leading-tight text-center z-10 inset-y-0 left-0 my-auto">‹</label>
+    <label for="carousel-7"
+      class="next control-6 w-10 h-10 mr-2 md:mr-10 absolute cursor-pointer hidden text-3xl font-bold text-blanc-text hover:text-rose rounded-full leading-tight text-center z-10 inset-y-0 right-0 my-auto">›</label>
+
+    <!--Slide 7-->
+    <input class="carousel-open" type="radio" id="carousel-7" name="carousel" aria-hidden="true" hidden=""
+      checked="checked">
+    <div class="carousel-item absolute opacity-0" style="height:50vh;">
+      <p class="text-blanc-text font-nunito-sans text-sm text-center">Step 7/10</p>
+      <div class="rounded-2xl w-80 h-60 mx-auto  mt-10 bg-gradient-to-r p-1 from-mauve to-orange">
+        <div class="flex flex-col justify-between h-full bg-fond-site text-white rounded-lg p-4">
+          <p class="text-blanc-text font-lato text-sm bold text-center">Which NFT theme are you most interested in?</p>
+          <div class="flex items-center">
+            <input id="default-radio-1" type="radio" value="" name="default-radio"
+              class=" w-4 h-4 bg-gradient-to from-rose to-mauve border-rose focus:ring-rose">
+            <label for="default-radio-1" class="ml-2 font-lato text-sm bold text-blanc-text">Yes</label>
+          </div>
+          <div class="flex items-center">
+            <input checked id="default-radio-2" type="radio" value="" name="default-radio"
+              class="w-4 h-4 bg-gradient-to from-rose to-mauve border-rose ">
+            <label for="default-radio-2" class="ml-2 font-lato text-sm bold text-blanc-text">No</label>
+          </div>
+        </div>
+      </div>
+    </div>
+    <label for="carousel-6"
+      class="prev control-7 w-10 h-10 ml-2 md:ml-10 absolute cursor-pointer hidden text-3xl font-bold text-blanc-text hover:text-rose rounded-full leading-tight text-center z-10 inset-y-0 left-0 my-auto">‹</label>
+    <label for="carousel-8"
+      class="next control-7 w-10 h-10 mr-2 md:mr-10 absolute cursor-pointer hidden text-3xl font-bold text-blanc-text hover:text-rose rounded-full leading-tight text-center z-10 inset-y-0 right-0 my-auto">›</label>
+
+    <!--Slide 8-->
+    <input class="carousel-open" type="radio" id="carousel-8" name="carousel" aria-hidden="true" hidden=""
+      checked="checked">
+    <div class="carousel-item absolute opacity-0" style="height:50vh;">
+      <p class="text-blanc-text font-nunito-sans text-sm text-center">Step 8/10</p>
+      <div class="rounded-2xl w-80 h-60 mx-auto  mt-10 bg-gradient-to-r p-1 from-mauve to-orange">
+        <div class="flex flex-col justify-between h-full bg-fond-site text-white rounded-lg p-4">
+          <p class="text-blanc-text font-lato text-sm bold text-center">What are your favorite colors?</p>
+          <div class="flex items-center">
+            <input id="default-radio-1" type="radio" value="" name="default-radio"
+              class=" w-4 h-4 bg-gradient-to from-rose to-mauve border-rose focus:ring-rose">
+            <label for="default-radio-1" class="ml-2 font-lato text-sm bold text-blanc-text">Yes</label>
+          </div>
+          <div class="flex items-center">
+            <input checked id="default-radio-2" type="radio" value="" name="default-radio"
+              class="w-4 h-4 bg-gradient-to from-rose to-mauve border-rose ">
+            <label for="default-radio-2" class="ml-2 font-lato text-sm bold text-blanc-text">No</label>
+          </div>
+        </div>
+      </div>
+    </div>
+    <label for="carousel-7"
+      class="prev control-8 w-10 h-10 ml-2 md:ml-10 absolute cursor-pointer hidden text-3xl font-bold text-blanc-text hover:text-rose rounded-full leading-tight text-center z-10 inset-y-0 left-0 my-auto">‹</label>
+    <label for="carousel-9"
+      class="next control-8 w-10 h-10 mr-2 md:mr-10 absolute cursor-pointer hidden text-3xl font-bold text-blanc-text hover:text-rose rounded-full leading-tight text-center z-10 inset-y-0 right-0 my-auto">›</label>
+
+    <!--Slide 9-->
+    <input class="carousel-open" type="radio" id="carousel-9" name="carousel" aria-hidden="true" hidden=""
+      checked="checked">
+    <div class="carousel-item absolute opacity-0" style="height:50vh;">
+      <p class="text-blanc-text font-nunito-sans text-sm text-center">Step 9/10</p>
+      <div class="rounded-2xl w-80 h-60 mx-auto  mt-10 bg-gradient-to-r p-1 from-mauve to-orange">
+        <div class="flex flex-col justify-between h-full bg-fond-site text-white rounded-lg p-4">
+          <p class="text-blanc-text font-lato text-sm bold text-center">Would you like to personalize it further?</p>
+          <div class="flex items-center">
+            <input id="default-radio-1" type="radio" value="" name="default-radio"
+              class=" w-4 h-4 bg-gradient-to from-rose to-mauve border-rose focus:ring-rose">
+            <label for="default-radio-1" class="ml-2 font-lato text-sm bold text-blanc-text">Sign</label>
+          </div>
+          <div class="flex items-center">
+            <input checked id="default-radio-2" type="radio" value="" name="default-radio"
+              class="w-4 h-4 bg-gradient-to from-rose to-mauve border-rose ">
+            <label for="default-radio-2" class="ml-2 font-lato text-sm bold text-blanc-text">Distortion</label>
+          </div>
+        </div>
+      </div>
+    </div>
+    <label for="carousel-8"
+      class="prev control-9 w-10 h-10 ml-2 md:ml-10 absolute cursor-pointer hidden text-3xl font-bold text-blanc-text hover:text-rose rounded-full leading-tight text-center z-10 inset-y-0 left-0 my-auto">‹</label>
+    <label for="carousel-10"
+      class="next control-9 w-10 h-10 mr-2 md:mr-10 absolute cursor-pointer hidden text-3xl font-bold text-blanc-text hover:text-rose rounded-full leading-tight text-center z-10 inset-y-0 right-0 my-auto">›</label>
+
+    <!--Slide 10-->
+    <input class="carousel-open" type="radio" id="carousel-10" name="carousel" aria-hidden="true" hidden=""
+      checked="checked">
+    <div class="carousel-item absolute opacity-0" style="height:50vh;">
+      <p class="text-blanc-text font-nunito-sans text-sm text-center">Step 10/10</p>
+      <div class="rounded-2xl w-80 h-60 mx-auto  mt-10 bg-gradient-to-r p-1 from-mauve to-orange">
+        <div class="flex flex-col justify-between h-full bg-fond-site text-white rounded-lg p-4">
+          <p class="text-blanc-text font-lato text-sm bold text-center">Do you want a ticket with your nft printed on
+            it?</p>
+          <div class="flex items-center">
+            <input id="default-radio-1" type="radio" value="" name="default-radio"
+              class=" w-4 h-4 bg-gradient-to from-rose to-mauve border-rose focus:ring-rose">
+            <label for="default-radio-1" class="ml-2 font-lato text-sm bold text-blanc-text">Yes</label>
+          </div>
+          <div class="flex items-center">
+            <input checked id="default-radio-2" type="radio" value="" name="default-radio"
+              class="w-4 h-4 bg-gradient-to from-rose to-mauve border-rose ">
+            <label for="default-radio-2" class="ml-2 font-lato text-sm bold text-blanc-text">No</label>
+          </div>
+        </div>
+      </div>
+    </div>
+    <label for="carousel-9"
+      class="prev control-10 w-10 h-10 ml-2 md:ml-10 absolute cursor-pointer hidden text-3xl font-bold text-blanc-text hover:text-rose rounded-full leading-tight text-center z-10 inset-y-0 left-0 my-auto">‹</label>
+    <label for="carousel-1"
+      class="next control-10 w-10 h-10 mr-2 md:mr-10 absolute cursor-pointer hidden text-3xl font-bold text-blanc-text hover:text-rose rounded-full leading-tight text-center z-10 inset-y-0 right-0 my-auto">›</label>
+
+  </div>
 </template>
 
 
@@ -214,7 +346,12 @@ h3 {
 #carousel-2:checked~.control-2,
 #carousel-3:checked~.control-3,
 #carousel-4:checked~.control-4,
-#carousel-5:checked~.control-5 {
+#carousel-5:checked~.control-5,
+#carousel-6:checked~.control-6,
+#carousel-7:checked~.control-7,
+#carousel-8:checked~.control-8,
+#carousel-9:checked~.control-9,
+#carousel-10:checked~.control-10 {
   display: block;
 }
 
@@ -222,8 +359,14 @@ h3 {
 #carousel-2:checked~.control-2~li:nth-child(2),
 #carousel-3:checked~.control-3~li:nth-child(3),
 #carousel-4:checked~.control-4~li:nth-child(4),
-#carousel-5:checked~.control-5~li:nth-child(5) {
+#carousel-5:checked~.control-5~li:nth-child(5),
+#carousel-6:checked~.control-6~li:nth-child(6),
+#carousel-7:checked~.control-7~li:nth-child(7),
+#carousel-8:checked~.control-8~li:nth-child(8),
+#carousel-9:checked~.control-9~li:nth-child(9),
+#carousel-10:checked~.control-10~li:nth-child(10) {
   color: violet;
 }
 </style>
+
 

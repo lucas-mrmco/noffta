@@ -9,7 +9,7 @@ import BoutonSignIn from "../buttons/BoutonSignIn.vue"
   <header class="z-50 p-10 text-xl w-full space-x-16  ">
     <!-- logo -->
     <div>
-      <RouterLink class="justify-start" to="/"><img src="/logo/logo-ref-standart.svg" class="w-44 pt-5 mx-20"
+      <RouterLink class="justify-start " to="/"><img src="/logo/logo-ref-standart.svg" class="w-44 pt-5 mx-20"
           alt="logo noffta"></RouterLink>
     </div>
     <!-- navigation  -->
