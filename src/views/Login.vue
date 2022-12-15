@@ -6,7 +6,7 @@
 <main class="pt-10 px-28">
     <body>
 
-        <h2 class="font-nunito-sans text-xl text-blanc-text mb-10 text-center">Login</h2>
+        <h2 class="sm:text-1xl md:text-lg lg:text-xl font-nunito-sans text-blanc-text mb-10 text-center">Login</h2>
     
         <div class="box bg-mauve bg-opacity-20 w-2/3 mx-auto p-20 rounded-15xl ">
             

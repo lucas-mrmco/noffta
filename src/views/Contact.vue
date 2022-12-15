@@ -2,7 +2,7 @@
   <main class="mx-36 pb-20 pt-10">
 
     <body>
-      <h2 class="font-nunito-sans text-center text-xl text-blanc-text pb-10">Contact</h2>
+      <h2 class=" sm:text-1xl md:text-lg lg:text-xl font-nunito-sans text-center text-blanc-text pb-10">Contact</h2>
       <div class="box bg-mauve bg-opacity-20 w-2/3 mx-auto p-20 rounded-15xl ">
         <p class="text-blanc-text font-lato text-sm pb-9">If you wish to contact us, please fill in the following
           information

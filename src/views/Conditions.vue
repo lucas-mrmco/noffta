@@ -5,7 +5,7 @@ import FooterVue from '../components/layout/Footer.vue'
 <template>
   <main class="pt-10 px-28">
       <body>
-        <h2 class="font-nunito-sans text-xl text-blanc-text pb-10">Terms & conditions</h2>
+        <h2 class="sm:text-1xl md:text-lg lg:text-xl font-nunito-sans text-blanc-text pb-10">Terms & conditions</h2>
   
       <div class="w-1/2">
   
