@@ -34,6 +34,7 @@ module.exports = {
         "orange": "#FC6767",
         "fond-site": "#140C1F",
         "fond-profil": "#3D3D3D",
+        "vermillon": "#EB1484",
       },
       "fontSize": {
         "sm": "0.875rem",
