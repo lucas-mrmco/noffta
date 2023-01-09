@@ -4,8 +4,7 @@
   <p class="text-blanc-text font-lato text-sm bold text-center">Free of charge !</p>
   <div class="grid">
     <button> Create NFT </button>
-    <img class="content-center w-72 pt-20" src="../assets/illustration-generator.png"
-      alt="illustration générateur de NFT" />
+    <img class="content-center w-72 pt-20" src="/img/illustration-generator.png" alt="illustration générateur de NFT" />
   </div>
   <h3 class="text-blanc-text font-lato text-sm bold pt-40">Discover all</h3>
   <p class="text-red-600">A FAIRE Cards ...</p>
