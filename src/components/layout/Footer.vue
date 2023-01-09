@@ -141,7 +141,7 @@
 
         <div class=" w-60 pr-6">
           <a href="http://mmimontbeliard.com/">
-            <img src="icons/mmi.svg" class="mx-10 w-14 " alt="logo mmi montbéliard" />
+            <img src="/icons/mmi.svg" class="mx-10 w-14 " alt="logo mmi montbéliard" />
             <p class="mb-3 text-sm text-gray-300  text-left">
               Project realized
               within the framework of an educational exercise in the
