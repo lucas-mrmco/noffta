@@ -114,7 +114,7 @@
               <a href="/">
                 <button type="button"
                   class="w-12 text-base rounded-r-10xl bg-gradient-to-tl from-rose to-vermillon p-3 ">
-                  <img src="icons/send.svg" alt="avion en papier" />
+                  <img src="/icons/send.svg" alt="avion en papier" />
                 </button>
               </a>
             </div>
