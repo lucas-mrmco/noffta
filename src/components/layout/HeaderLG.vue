@@ -1,7 +1,7 @@
 <script setup>
 import BoutonGenerator from "../buttons/BoutonGen.vue"
 import BoutonSecondaryA from "../buttons/BoutonSign.vue";
-import BoutonSignIn from "../buttons/BoutonSignIn.vue"
+
 </script>
 
 <template>
