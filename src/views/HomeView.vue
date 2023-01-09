@@ -123,7 +123,7 @@ import DropdownItem from '../components/DropdownItem.vue';
 
 
     <div class="px-36 ">
-      <img src="/img/BARCELONA.png" class="w-2/5 ml-auto pb-20" alt="barcelone" />
+      <img src="/img/barcelona.png" class="w-2/5 ml-auto pb-20" alt="barcelone" />
 
 
       <h3 class="font-nunito-sans text-lg  text-blanc-text pb-20">Frequently Asked Questions</h3>
