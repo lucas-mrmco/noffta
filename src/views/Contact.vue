@@ -61,19 +61,19 @@
       <div class="pt-96 grid grid-cols-2 md:grid-cols-4 sm:grid-cols-2 gap-x-4 justify-items-center ">
 
         <div>
-          <img src="img/marion.png" class="w-52" alt="photo de marion gillot" />
+          <img src="/img/marion.png" class="w-52" alt="photo de marion gillot" />
           <p class="text-white pt-4 pb-4 text-center">Marion Gillot</p>
         </div>
         <div>
-          <img src="img/lucas.png" class="w-52" alt="photo de lucas moramarco" />
+          <img src="/img/lucas.png" class="w-52" alt="photo de lucas moramarco" />
           <p class="text-white pt-4 pb-4 text-center">Lucas Moramarco</p>
         </div>
         <div>
-          <img src="img/arthur.png" class="w-52 " alt="photo de arthur meyer" />
+          <img src="/img/arthur.png" class="w-52 " alt="photo de arthur meyer" />
           <p class="text-white pt-4 pb-4 text-center">Arthur Meyer</p>
         </div>
         <div>
-          <img src="img/agathe.png" class="w-52 " alt="photo de agathe eccher" />
+          <img src="/img/agathe.png" class="w-52 " alt="photo de agathe eccher" />
           <p class="text-white pt-4 pb-4 text-center">Agathe Eccher</p>
         </div>
 
@@ -97,7 +97,7 @@
 
 
       <div class="flex space-x-20">
-        <img src="img/paypal.png" class="w-20 h-24" />
+        <img src="/img/paypal.png" class="w-20 h-24" />
         <h2 class="font-nunito-sans text-xl text-blanc-text pb-10">Soutenez-nous</h2>
       </div>
 

@@ -7,7 +7,7 @@
         <div class="mx-auto pb-16">
           <div class="flex pb-6 place-content-center">
             <div>
-              <img src="img/profil.webp" class=" w-60 pt-10" alt="photo de profil" />
+              <img src="/img/profil.webp" class=" w-60 pt-10" alt="photo de profil" />
             </div>
 
             <div class="mt-56 ">
