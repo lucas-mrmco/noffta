@@ -77,21 +77,21 @@ import DropdownItem from '../components/DropdownItem.vue';
         <div class="grid grid-cols-3 pb-28 pt-9 px-60">
           <div class="block -space-y-8">
             <h4 class="text-white text-center text-lg">1</h4>
-            <img src="icons/1.svg" class="mx-auto" alt="étape 1" />
+            <img src="/icons/1.svg" class="mx-auto" alt="étape 1" />
             <p class="text-white  text-center">Open the form Preferably on your smartphone</p>
           </div>
 
 
           <div class="-space-y-8">
             <h4 class="text-white text-center text-lg">2</h4>
-            <img src="icons/2.svg" class="mx-auto" alt="étape 2" />
+            <img src="/icons/2.svg" class="mx-auto" alt="étape 2" />
             <p class="text-white  text-center">Answer 10 questions</p>
           </div>
 
 
           <div class="-space-y-8 pb-20">
             <h4 class="text-white text-center text-lg">3</h4>
-            <img src="icons/3.svg" class="mx-auto" alt="étape 3" />
+            <img src="/icons/3.svg" class="mx-auto" alt="étape 3" />
             <p class="text-white  text-center">Select your favorite NFT amoung 3</p>
           </div>
         </div>
@@ -100,21 +100,21 @@ import DropdownItem from '../components/DropdownItem.vue';
         <div class="grid grid-cols-3 -mt-36 pb-14    px-60">
           <div class="-space-y-8">
             <h4 class="text-white text-center text-lg">4</h4>
-            <img src="icons/4.svg" class="mx-auto" alt="étape 4" />
+            <img src="/icons/4.svg" class="mx-auto" alt="étape 4" />
             <p class="text-white  text-center">Customize your NFT (sign & distort)</p>
           </div>
 
 
           <div class="-space-y-8">
             <h4 class="text-white text-center text-lg">5</h4>
-            <img src="icons/5.svg" class="mx-auto" alt="étape 5" />
+            <img src="/icons/5.svg" class="mx-auto" alt="étape 5" />
             <p class="text-white  text-center">Save it to your account</p>
           </div>
 
 
           <div class="-space-y-8">
             <h4 class="text-white text-center text-lg">6</h4>
-            <img src="icons/6.svg" class="mx-auto" alt="étape 6" />
+            <img src="/icons/6.svg" class="mx-auto" alt="étape 6" />
             <p class="text-white  text-center">Join us at OFFF to receive your ticket with printed NFT</p>
           </div>
         </div>
@@ -200,7 +200,7 @@ import DropdownItem from '../components/DropdownItem.vue';
               <a href="/">
                 <button type="button"
                   class="w-12 text-base rounded-r-10xl bg-gradient-to-tl from-rose to-vermillon  p-3 ">
-                  <img src="icons/send.svg" alt="avion en papier" />
+                  <img src="/icons/send.svg" alt="avion en papier" />
                 </button>
               </a>
             </div>

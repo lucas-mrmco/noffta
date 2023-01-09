@@ -12,7 +12,7 @@
 
             <div class="mt-56 ">
               <router-link to="/modifications">
-                <img src="icons/edit.svg" alt="modifier le profil" />
+                <img src="/icons/edit.svg" alt="modifier le profil" />
               </router-link>
             </div>
           </div>
@@ -26,7 +26,7 @@
 
           <div
             class="justify-center w-24 py-4 mt-4 bg-gradient-to-tr from-violet-profil to-rose border border-white rounded-17xl ">
-            <img src="icons/create.svg" class="mx-auto w-12" alt="creer un nouveau NFT" />
+            <img src="/icons/create.svg" class="mx-auto w-12" alt="creer un nouveau NFT" />
           </div>
         </div>
       </div>
@@ -45,34 +45,34 @@
               <div class="">
                 <p class="text-center text-white text-md">Add your new NFT</p>
               </div>
-              <img src="icons/add.svg" class="mx-auto w-20" alt="creer un nouveau NFT" />
+              <img src="/icons/add.svg" class="mx-auto w-20" alt="creer un nouveau NFT" />
             </div>
 
             <div id="jh-stats-neutral"
               class="flex flex-col justify-center px-4 py-4 mt-4 bg-gradient-to-tr from-violet-profil to-rose border border-white rounded-25xl sm:mt-0">
               <div>
-                <img src="icons/create.svg" class="mx-auto w-20" alt="creer un nouveau NFT" />
+                <img src="/icons/create.svg" class="mx-auto w-20" alt="creer un nouveau NFT" />
               </div>
             </div>
 
             <div id="jh-stats-neutral"
               class="flex flex-col justify-center px-4 py-4 mt-4 bg-gradient-to-tr from-violet-profil to-rose border border-white rounded-25xl sm:mt-0">
               <div>
-                <img src="icons/create.svg" class="mx-auto w-20" alt="creer un nouveau NFT" />
+                <img src="/icons/create.svg" class="mx-auto w-20" alt="creer un nouveau NFT" />
               </div>
             </div>
 
             <div id="jh-stats-neutral"
               class="flex flex-col justify-center px-4 py-4 mt-4 bg-gradient-to-tr from-violet-profil to-rose border border-white rounded-25xl sm:mt-0">
               <div>
-                <img src="icons/create.svg" class="mx-auto w-20" alt="creer un nouveau NFT" />
+                <img src="/icons/create.svg" class="mx-auto w-20" alt="creer un nouveau NFT" />
               </div>
             </div>
 
             <div id="jh-stats-neutral"
               class="flex flex-col justify-center px-4 py-4 mt-4 bg-gradient-to-tr from-violet-profil to-rose border border-white rounded-25xl sm:mt-0">
               <div>
-                <img src="icons/create.svg" class="mx-auto w-20" alt="creer un nouveau NFT" />
+                <img src="/icons/create.svg" class="mx-auto w-20" alt="creer un nouveau NFT" />
               </div>
             </div>
 
@@ -80,7 +80,7 @@
               class="flex flex-col justify-center px-4 py-4 mt-4 bg-fond-profil bg-opacity-30 h-60 border-white rounded-25xl sm:mt-0">
               <div class="space-y-4">
                 <p class="text-center text-white text-md">5 Free NFT </p>
-                <img src="icons/buy.svg" class="mx-auto w-20" alt="creer un nouveau NFT" />
+                <img src="/icons/buy.svg" class="mx-auto w-20" alt="creer un nouveau NFT" />
                 <p class="text-center text-white text-md">If you want more +50cents</p>
               </div>
             </div>
@@ -89,7 +89,7 @@
               class="flex flex-col justify-center px-4 py-4 mt-4 bg-fond-profil bg-opacity-30 h-60 border-white rounded-25xl sm:mt-0">
               <div class="space-y-4">
                 <p class="text-center text-white text-md">5 Free NFT </p>
-                <img src="icons/buy.svg" class="mx-auto w-20" alt="creer un nouveau NFT" />
+                <img src="/icons/buy.svg" class="mx-auto w-20" alt="creer un nouveau NFT" />
                 <p class="text-center text-white text-md">If you want more +50cents</p>
               </div>
             </div>
@@ -98,7 +98,7 @@
               class="flex flex-col justify-center px-4 py-4 mt-4 bg-fond-profil bg-opacity-30 h-60 border-white rounded-25xl sm:mt-0">
               <div class="space-y-4">
                 <p class="text-center text-white text-md">5 Free NFT </p>
-                <img src="icons/buy.svg" class="mx-auto w-20" alt="creer un nouveau NFT" />
+                <img src="/icons/buy.svg" class="mx-auto w-20" alt="creer un nouveau NFT" />
                 <p class="text-center text-white text-md">If you want more +50cents</p>
               </div>
             </div>
@@ -107,7 +107,7 @@
               class="flex flex-col justify-center px-4 py-4 mt-4 bg-fond-profil bg-opacity-30 h-60 border-white rounded-25xl sm:mt-0">
               <div class="space-y-4">
                 <p class="text-center text-white text-md">5 Free NFT </p>
-                <img src="icons/buy.svg" class="mx-auto w-20" alt="creer un nouveau NFT" />
+                <img src="/icons/buy.svg" class="mx-auto w-20" alt="creer un nouveau NFT" />
                 <p class="text-center text-white text-md">If you want more +50cents</p>
               </div>
             </div>
