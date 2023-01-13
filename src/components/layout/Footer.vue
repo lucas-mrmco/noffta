@@ -60,7 +60,7 @@
   <footer class="bg-footer-texture sm:p-6 dark:bg-white bottom-0">
     <div class="px-10 md:flex md:justify-between ">
 
-      <div class="grid grid-cols-2 space-x-8 sm:gap-6 sm:grid-cols-5">
+      <div class="grid grid-cols-2 space-x-8 lg:gap-6 lg:grid-cols-5">
 
         <div class="mt-6">
           <RouterLink to="/" class="">

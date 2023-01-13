@@ -6,7 +6,7 @@ function invertState() {
 }
 </script>
 <template>
-    <div class="lg:w-80 text-md lg:ml-0 mx-6">
+    <div class="lg:w-80 text-md lg:ml-0 mx-6  py-2 z-50">
         <h1 @click="invertState" :class="{ 'font-bold': open }"
             class="cursor-pointer text-white hover:text-mauve  my-3.5 flex items-center justify-between">
             <slot name="header"></slot>
