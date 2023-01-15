@@ -1,5 +1,5 @@
 <template>
-  <header class="head p-5 top-0 fixed z-0   flex h-20 w-screen items-center shadow-xl backdrop-blur-2xl">
+  <header class="head p-5 top-0 fixed z-50   flex h-20 w-screen items-center shadow-xl backdrop-blur-2xl">
     <Menu1 class="absolute mt-4 right-4 w-12 z-50 h-auto" @click="MenuOpen = !MenuOpen" v-if="!MenuOpen" />
     <Close class="absolute right-4 z-50 w-12 h-auto" @click="MenuOpen = !MenuOpen" v-if="MenuOpen" />
     <RouterLink class="p-4" to="/"><img src="/logo/logo-ref-standart.svg" class="w-32 mt-4 z-50" alt=""></RouterLink>

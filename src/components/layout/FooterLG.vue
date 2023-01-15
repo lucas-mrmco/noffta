@@ -76,7 +76,7 @@
               <Routerlink to="" class="hover:underline">Contact us</Routerlink>
             </li>
             <li class="mb-3">
-              <Routerlink to="" class="hover:underline">CSupport us</Routerlink>
+              <Routerlink to="" class="hover:underline">Support us</Routerlink>
             </li>
           </ul>
         </div>
