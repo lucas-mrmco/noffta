@@ -98,7 +98,7 @@
 
       <div class="flex space-x-20">
         <img src="/img/paypal.png" class="w-20 h-24" />
-        <h2 class="font-nunito-sans text-xl text-blanc-text pb-10">Soutenez-nous</h2>
+        <h2 class="font-nunito-sans text-xl text-blanc-text pb-10">Support us !</h2>
       </div>
 
       <p class="text-white mx-40 w-2/5 pb-3">If you are interested in our project, you can contribute to its success!

@@ -116,7 +116,10 @@
 
       </div>
     </body>
-
+    <footer>
+      <FooterXS class="lg:hidden" />
+      <FooterLG class="hidden lg:block" />
+    </footer>
   </main>
 </template>
 
@@ -125,4 +128,7 @@
 
 
 <script>
+
+import FooterXS from '../components/layout/FooterXS.vue';
+import FooterLG from '../components/layout/FooterLG.vue';
 </script>

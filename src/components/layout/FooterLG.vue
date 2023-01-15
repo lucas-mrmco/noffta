@@ -1,82 +1,26 @@
-<!-- <template>
-  
-  <div class="grid grid-cols-5 mt-10   w-full max-h-32  md:space-x-40 lg:space-x-96 space-x-16 backdrop-blur-md backdrop-brightness-150 md:backdrop-filter-none bg-white sm:pxee-10">
-  <div class="">
-    <div
-      class="flex  flex-col justify-start font-montserrat text-xs md:text-sm items-start  "
-    >
-      <RouterLink class="flex-grow-0 flex-shrink-0  text-left text-[#3a3a3a]" to="/mentions">Mentions légales</RouterLink>
-      <RouterLink class="flex-grow-0 flex-shrink-0  text-left text-[#3a3a3a]" to="/conditions">CGU CGV</RouterLink>
-      <RouterLink class="flex-grow-0 flex-shrink-0  text-left text-[#3a3a3a]" to="/contact">Contact </RouterLink>
-      
-      
-      
-    </div>
-    <div
-      class="flex  flex-col justify-start font-montserrat text-xs md:text-sm items-start  "
-    >
-      <RouterLink class="flex-grow-0 flex-shrink-0  text-left text-[#3a3a3a]" to="/mentions">Mentions légales</RouterLink>
-      <RouterLink class="flex-grow-0 flex-shrink-0  text-left text-[#3a3a3a]" to="/conditions">CGU CGV</RouterLink>
-      <RouterLink class="flex-grow-0 flex-shrink-0  text-left text-[#3a3a3a]" to="/contact">Contact </RouterLink>
-      
-      
-      
-    </div>
-    <div
-      class="flex  flex-col justify-start font-montserrat text-xs md:text-sm items-start  "
-    >
-      <RouterLink class="flex-grow-0 flex-shrink-0  text-left text-[#3a3a3a]" to="/mentions">Mentions légales</RouterLink>
-      <RouterLink class="flex-grow-0 flex-shrink-0  text-left text-[#3a3a3a]" to="/conditions">CGU CGV</RouterLink>
-      <RouterLink class="flex-grow-0 flex-shrink-0  text-left text-[#3a3a3a]" to="/contact">Contact </RouterLink>
-      
-      
-      
-    </div>
-    <div
-      class="flex  flex-col justify-start font-montserrat text-xs md:text-sm items-start  "
-    >
-      <RouterLink class="flex-grow-0 flex-shrink-0  text-left text-[#3a3a3a]" to="/mentions">Mentions légales</RouterLink>
-      <RouterLink class="flex-grow-0 flex-shrink-0  text-left text-[#3a3a3a]" to="/conditions">CGU CGV</RouterLink>
-      <RouterLink class="flex-grow-0 flex-shrink-0  text-left text-[#3a3a3a]" to="/contact">Contact </RouterLink>
-      
-      
-      
-    </div>
-    <div
-      class="flex  flex-col justify-start font-montserrat text-xs md:text-sm items-start  "
-    >
-      <RouterLink class="flex-grow-0 flex-shrink-0  text-left text-[#3a3a3a]" to="/mentions">Mentions légales</RouterLink>
-      <RouterLink class="flex-grow-0 flex-shrink-0  text-left text-[#3a3a3a]" to="/conditions">CGU CGV</RouterLink>
-      <RouterLink class="flex-grow-0 flex-shrink-0  text-left text-[#3a3a3a]" to="/contact">Contact </RouterLink>
-      
-      
-      
-    </div>
-    </div>
-    </div>
-    
-</template> -->
 <template>
-  <footer class="bg-footer-texture sm:p-6 dark:bg-white bottom-0">
+  <footer class="bg-footer-texture p-6 dark:bg-white bottom-0">
     <div class="px-10 md:flex md:justify-between ">
 
-      <div class="grid grid-cols-2 space-x-8 lg:gap-6 lg:grid-cols-5">
+      <div class="grid space-x-8 gap-6 grid-cols-5">
 
         <div class="mt-6">
           <RouterLink to="/" class="">
             <img src="/logo/logo-ref-standart.svg" class="mr-3 h-8 mb-3 " alt="Logo Noffta" />
             <p class="text-white w-44 mb-16">An other way to leave a footstep in the OFFF.</p>
           </RouterLink>
-          <div class="sm:flex sm:items-center sm:justify-between">
+          <div class="flex items-center justify-between">
 
-            <div class="flex mt-10 space-x-4 sm:justify-center sm:mt-0">
-              <RouterLink to="#" class="text-gray-500 hover:text-white dark:hover:text-white">
+            <div class="flex mt-10 space-x-4 justify-center">
+              <a href="https://instagram.com/noffta_2023?igshid=YmMyMTA2M2Y="
+                class="text-gray-500 hover:text-white dark:hover:text-white" target="_blank">
                 <img src="/icons/instagram.svg" class="h-11 w-11" alt="logo instagram" />
-              </RouterLink>
+              </a>
 
-              <Routerlink to="#" class="text-gray-500 hover:text-white dark:hover:text-white">
+              <a href="https://www.behance.net/noffta2023" class="text-gray-500 hover:text-white dark:hover:text-white"
+                target="_blank">
                 <img src="/icons/behance.svg" class="h-11 w-11" alt="logo behance" />
-              </Routerlink>
+              </a>
 
               <Routerlink to="#" class="text-gray-500 hover:text-white dark:hover:text-white">
                 <img src="/icons/dribbble.svg" class="h-11 w-11" alt="logo dribble" />
@@ -105,7 +49,7 @@
           <h4 class="mb-6 text-sm font-semibold text-white uppercase ">Subscribe Us</h4>
 
           <form action="#">
-            <div class="items-center mx-auto mb-3 space-y-4 max-w-screen-sm sm:flex sm:space-y-0">
+            <div class="items-center mx-auto mb-3  max-w-screen-sm flex space-y-0">
               <div class="relative w-full">
                 <label for="email" class="hidden text-sm text-gray-300">Email address</label>
                 <input class=" p-3 w-full text-sm text-black bg-gray-50 rounded-l-10xl  "
@@ -157,12 +101,12 @@
 
     <div class="flex mr-20 pt-9">
       <div class="mx-20">
-        <span class="text-sm text-gray-300 sm:text-center ">© 2023
+        <span class="text-sm text-gray-300 text-center ">© 2023
           <Routerlink to="https://noffta.com/" class="hover:underline"> Noffta </Routerlink> | All Rights Reserved.
         </span>
       </div>
 
-      <div class="flex space-x-6 text-sm text-gray-300 sm:text-center ml-auto ">
+      <div class="flex space-x-6 text-sm text-gray-300 text-center ml-auto ">
         <RouterLink to="/mentions" class="hover:underline ">Privacy Policy</RouterLink>
         <RouterLink to="/conditions" class="hover:underline ">Terms of Service</RouterLink>
       </div>
