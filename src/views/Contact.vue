@@ -1,9 +1,9 @@
 <template>
-  <main class="mx-36 pb-20 pt-10">
+  <main class="lg:mx-36 lg:pb-20 lg:pt-10 pt-40 mx-10">
 
     <body>
-      <h2 class=" sm:text-1xl md:text-lg lg:text-xl font-nunito-sans text-center text-blanc-text pb-10">Contact</h2>
-      <div class="box bg-mauve bg-opacity-20 w-2/3 mx-auto p-20 rounded-15xl ">
+      <h2 class="  text-lg lg:text-xl font-nunito-sans text-center text-blanc-text  lg:pb-10">Contact</h2>
+      <div class="box bg-mauve bg-opacity-20 lg:w-2/3  mx-auto lg:p-20 p-10 rounded-15xl ">
         <p class="text-blanc-text font-lato text-sm pb-9">If you wish to contact us, please fill in the following
           information
           :</p>
@@ -58,50 +58,51 @@
       </div>
 
 
-      <div class="pt-96 grid grid-cols-2 md:grid-cols-4 sm:grid-cols-2 gap-x-4 justify-items-center ">
+      <div class="lg:pt-96 pt-40 grid grid-cols-2 md:grid-cols-4 sm:grid-cols-2 gap-x-4 justify-items-center ">
 
         <div>
-          <img src="/img/marion.png" class="w-52" alt="photo de marion gillot" />
-          <p class="text-white pt-4 pb-4 text-center">Marion Gillot</p>
+          <img src="/img/marion.png" class="lg:w-52" alt="photo de marion gillot" />
+          <p class="text-white lg:pt-4 lg:pb-4 text-center">Marion Gillot</p>
         </div>
         <div>
-          <img src="/img/lucas.png" class="w-52" alt="photo de lucas moramarco" />
-          <p class="text-white pt-4 pb-4 text-center">Lucas Moramarco</p>
+          <img src="/img/lucas.png" class="lg:w-52" alt="photo de lucas moramarco" />
+          <p class="text-white lg:pt-4 lg:pb-4 text-center">Lucas Moramarco</p>
         </div>
         <div>
-          <img src="/img/arthur.png" class="w-52 " alt="photo de arthur meyer" />
-          <p class="text-white pt-4 pb-4 text-center">Arthur Meyer</p>
+          <img src="/img/arthur.png" class="lg:w-52 " alt="photo de arthur meyer" />
+          <p class="text-white lg:pt-4 lg:pb-4 text-center">Arthur Meyer</p>
         </div>
         <div>
-          <img src="/img/agathe.png" class="w-52 " alt="photo de agathe eccher" />
-          <p class="text-white pt-4 pb-4 text-center">Agathe Eccher</p>
+          <img src="/img/agathe.png" class="lg:w-52 w-full" alt="photo de agathe eccher" />
+          <p class="text-white lg:pt-4 lg:pb-4 text-center">Agathe Eccher</p>
         </div>
 
       </div>
 
 
-      <div class="pt-20 grid grid-cols-1 md:grid-cols-2 sm:grid-cols-2 pb-20 justify-items-center ">
+      <div class="pt-20 lg:grid lg:grid-cols-2  pb-20 justify-items-center ">
 
         <div>
           <h3 class="font-nunito-sans text-lg text-blanc-text pb-10">Who are we?</h3>
-          <p class="text-white pt-4 pb-4 w-2/3 ">We are 2 designers, 1 communicator, and 1 developer.
+          <p class="text-white pt-4 pb-4 lg:w-2/3 ">We are 2 designers, 1 communicator, and 1 developer.
             All four of us are second year students in MMi, Métier du Multimédia et de l'Internet, at the IUT of
             Montbéliard (25) in France. </p>
         </div>
         <div>
           <h3 class="font-nunito-sans text-lg text-blanc-text pb-10">What are our missions?</h3>
-          <p class="text-white pt-4 pb-4 w-2/3 ">As a pedagogical exercise, our mission is to create an online NFT
+          <p class="text-white pt-4 pb-4 lg:w-2/3 ">As a pedagogical exercise, our mission is to create an online NFT
             generator, while offering you the best possible use and experience. </p>
         </div>
       </div>
 
 
-      <div class="flex space-x-20">
+      <div class="flex lg:space-x-20 space-x-7">
         <img src="/img/paypal.png" class="w-20 h-24" />
         <h2 class="font-nunito-sans text-xl text-blanc-text pb-10">Support us !</h2>
       </div>
 
-      <p class="text-white mx-40 w-2/5 pb-3">If you are interested in our project, you can contribute to its success!
+      <p class="text-white lg:mx-40 lg:w-2/5 pb-3">If you are interested in our project, you can contribute to its
+        success!
       </p>
 
       <span class="text-sm text-white mx-40 w-2/5 font-bold sm:text-center ">Here is our paypal link :

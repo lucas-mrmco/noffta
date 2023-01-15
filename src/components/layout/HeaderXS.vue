@@ -2,10 +2,10 @@
   <header class="head p-5 top-0 fixed z-50   flex h-20 w-screen items-center shadow-xl backdrop-blur-2xl">
     <Menu1 class="absolute mt-4 right-4 w-12 z-50 h-auto" @click="MenuOpen = !MenuOpen" v-if="!MenuOpen" />
     <Close class="absolute right-4 z-50 w-12 h-auto" @click="MenuOpen = !MenuOpen" v-if="MenuOpen" />
-    <RouterLink class="p-4" to="/"><img src="/logo/logo-ref-standart.svg" class="w-32 mt-4 z-50" alt=""></RouterLink>
+    <RouterLink class="p-4" to="/"><img src="/logo/logo-ref-standart.svg" class="w-32 mt-4 z-30 " alt=""></RouterLink>
     <nav
-      class="absolute left-0 top-0 bottom-0 right-0 h-screen -translate-x-full bg-gradient-to-b from-fond-site to-rose opacity-0"
-      :class="MenuOpen && 'translate-x-0 opacity-100'">
+      class="absolute left-0 top-0 bottom-0 right-0 h-screen  -translate-x-full  bg-gradient-to-b from-fond-site to-rose opacity-0 transition duration-300 z-0"
+      :class="MenuOpen && '  translate-x-0 z-30 opacity-100'">
 
       <ul
         class="flex text-white text-md gap-8  my-40 font-bold flex-col items-center justify-center text-left  font-nunito-sans">
