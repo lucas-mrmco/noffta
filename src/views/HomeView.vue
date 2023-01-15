@@ -64,11 +64,11 @@ import DropdownItem from '../components/DropdownItem.vue';
 
 
         <img src="/img/offf.webp" class="w-72 pb-12" alt="logo du OFFF" />
-        <p class="text-white w-96 pb-20">Our project is linked to the OFFF Festival in Barcelona. We are setting up an
+        <p class="text-white w-96 ">Our project is linked to the OFFF Festival in Barcelona. We are setting up an
           NFT
           generator accessible to festival
           goers and we would like to have a stand to give them a ticket with their nft printed on it.</p>
-        <div class="lg:pt-40 lg:-mb-40 lg:w-1/2 lg:h-auto lg:mt-20 block mx-auto ">
+        <div class="lg:mb-20 lg:w-1/2 lg:left-40  lg:h-auto lg:-mt-96 block mx-auto ">
           <maposm />
         </div>
 

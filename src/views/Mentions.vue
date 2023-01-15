@@ -1,14 +1,14 @@
 <script>
-import FooterVue from '../components/layout/Footer.vue'
+import Footer from '../components/layout/Footer.vue'
 </script>
 
 <template>
-  <main class="pt-10 px-28">
+  <main class="mt-24 lg:px-28 px-10">
 
     <body>
-      <h2 class="sm:text-1xl md:text-lg lg:text-xl font-nunito-sans text-blanc-text pb-10">Privacy Policy</h2>
+      <h2 class="text-lg  lg:text-xl font-nunito-sans text-blanc-text lg:pb-20 pb-10">Privacy Policy</h2>
 
-      <div class="w-1/2">
+      <div class="w-full lg:w-1/2">
         <p class="text-white pb-6">Within the framework of its activity of , the Noffta Company, represented by
           Moramarco Lucas, Eccher Agathe, Gillot Marion and Meyer Arthur,
           is brought to collect and treat the personal data of its visitors. The activities for which the company is led
@@ -212,7 +212,7 @@ import FooterVue from '../components/layout/Footer.vue'
         <p class="text-white pb-6">The Sendinblue platform has implemented all the necessary infrastructures to
           safeguard and protect your personal data.
           The platform is transparent only in the measures implemented:
-          https://help.sendinblue.com/hc/fr/categories/360000229110-RGPD
+          <a href="https://help.sendinblue.com/hc/fr/categories/360000229110-RGPD">RGPD</a>
           The hosting servers are located exclusively within the European Union, on their own servers, on Google Cloud
           or on AWS. All data is replicated three times in at least two different geographies. SendinBlue also makes
           regular backups of your data
@@ -220,7 +220,8 @@ import FooterVue from '../components/layout/Footer.vue'
           addition, the Platform has set up a traceability of this data throughout the processing carried out thanks to
           a system of monitoring and identification of logs.
           Archiving is carried out solely for legal reasons, and the databases are then purged at the end of the
-          retention period.</p>
+          retention period.
+        </p>
 
         <p class="text-white pb-10">All data centers are equipped with a multi-level security model (designed electronic
           access cards, alarms, security gates and fences, metal detectors and biometric technologies). As part of their
@@ -300,7 +301,7 @@ import FooterVue from '../components/layout/Footer.vue'
 
       </div>
 
-      <FooterVue />
+      <Footer />
     </body>
   </main>
 </template>

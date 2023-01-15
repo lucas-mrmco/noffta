@@ -108,7 +108,7 @@ const showLocation = (position) => {
     </span>
     <hr /> -->
     <div class="container">
-      <div id="map" class="lg:w-full lg:h-1/3 block lg:flex w-full lg:-mt-40 lg:left-3/4 mx-auto lg:mx-10">
+      <div id="map" class="">
       </div>
     </div>
   </div>
@@ -116,9 +116,7 @@ const showLocation = (position) => {
 
 <style scoped>
 #map {
-  width: 50%;
+  width: 100%;
   height: 50vh;
-  margin-top: -65vh;
-  left: 35vw;
 }
 </style>
