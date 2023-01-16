@@ -106,7 +106,8 @@
       </p>
 
       <span class="text-sm text-white mx-40 w-2/5 font-bold sm:text-center ">Here is our paypal link :
-        <Routerlink to="https://noffta.com/" class="hover:underline"> https://</Routerlink>
+        <a href="https://www.paypal.com/paypalme/lucassmoram" class="hover:underline" target="_blank">
+          https://www.paypal.com/paypalme/lucassmoram</a>
       </span>
 
 

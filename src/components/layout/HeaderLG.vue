@@ -6,7 +6,7 @@ import BoutonSecondaryA from "../buttons/BoutonSign.vue";
 
 <template>
 
-  <header class="z-50 p-10 text-xl w-full space-x-16  ">
+  <header class="z-50 p-10 text-xl w-full xl:space-x-16 lg:space-x-10 ">
     <!-- logo -->
     <div>
       <RouterLink class="justify-start " to="/"><img src="/logo/logo-ref-standart.svg" class="w-44 pt-5 mx-20"
@@ -17,17 +17,17 @@ import BoutonSecondaryA from "../buttons/BoutonSign.vue";
       <nav class="  ">
         <ul class=" flex space-x-14 font-nunito-sans   text-white   uppercase mt-5 text-sm px-10  ">
           <li class="hover:text-rose">
-            <RouterLink to="/#OFFF">
+            <RouterLink to="#OFFF">
               <h2> OFFF</h2>
             </RouterLink>
           </li>
           <li class="hover:text-rose">
-            <RouterLink to="/#NFT">
+            <a href="#NFT">
               <h2> NFT</h2>
-            </RouterLink>
+            </a>
           </li>
           <li class="hover:text-rose">
-            <RouterLink to="/#FAQ">
+            <RouterLink to="#FAQ">
               <h2>FAQ</h2>
             </RouterLink>
           </li>

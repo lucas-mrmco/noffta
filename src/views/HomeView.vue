@@ -39,7 +39,7 @@ import DropdownItem from '../components/DropdownItem.vue';
         </div>
 
 
-        <div class="lg:flex lg:space-x-10 space-x-4 px-6   pt-10">
+        <div class="lg:flex lg:space-x-10 space-x-4 px-6 z-20   pt-10">
           <RouterLink to="/generator#create" class="">
             <button
               class="rounded-7xl h-11 w-32   bg-gradient-to-r from-mauve to-orange inline-flex items-center p-6 hover:shadow-drop/drop-pink">
@@ -60,7 +60,7 @@ import DropdownItem from '../components/DropdownItem.vue';
         </div>
 
       </div>
-      <img src="/img/Looper-dk.png" class=" w-screen -mt-10 lg:-mt-80" alt="looper" />
+      <img src="/img/Looper-dk.png" class=" w-screen -mt-10 lg:-mt-80 z-0" alt="looper" />
 
 
       <img src="/img/logos.png" class="pb-28 lg:w-2/3 w-5/6   mx-auto" alt="éléments du projet" />
@@ -73,7 +73,8 @@ import DropdownItem from '../components/DropdownItem.vue';
 
 
           <img src="/img/offf.webp" class="w-72 pb-12" alt="logo du OFFF" />
-          <p class="text-white w-auto lg:w-96 ">Our project is linked to the OFFF Festival in Barcelona. We are setting
+          <p class="text-white w-auto lg:w-96 " id="OFFF">Our project is linked to the OFFF Festival in Barcelona. We
+            are setting
             up an
             NFT
             generator accessible to festival
@@ -85,7 +86,7 @@ import DropdownItem from '../components/DropdownItem.vue';
 
 
 
-          <h3 class="font-nunito-sans text-lg pt-20  text-blanc-text ">HOW CREATE YOUR WITH NOFFTA ?</h3>
+          <h3 class="font-nunito-sans text-lg pt-20  text-blanc-text " id="NFT">HOW CREATE YOUR WITH NOFFTA ?</h3>
         </div>
 
 
@@ -163,7 +164,7 @@ import DropdownItem from '../components/DropdownItem.vue';
 
           </div>
 
-          <div class="lg:pr-16 pr-0 p-3 w-full   lg:p-20">
+          <div id="FAQ" class="lg:pr-16 pr-0 p-3 w-full   lg:p-20">
 
             <DropdownItem>
               <template #header>What is an NFT ? </template>

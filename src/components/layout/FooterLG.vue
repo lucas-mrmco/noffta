@@ -70,13 +70,13 @@
           <h4 class="mb-6 text-sm font-semibold text-white uppercase  ">Contact</h4>
           <ul class="text-gray-300 dark:text-gray-400">
             <li class="mb-3">
-              <Routerlink to="" class="hover:underline ">Help & Support</Routerlink>
+              <Routerlink to="/contact" class="hover:underline ">Help & Support</Routerlink>
             </li>
             <li class="mb-3">
-              <Routerlink to="" class="hover:underline">Contact us</Routerlink>
+              <Routerlink to="/contact" class="hover:underline">Contact us</Routerlink>
             </li>
             <li class="mb-3">
-              <Routerlink to="" class="hover:underline">Support us</Routerlink>
+              <Routerlink to="/contact" class="hover:underline">Support us</Routerlink>
             </li>
           </ul>
         </div>
