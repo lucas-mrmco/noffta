@@ -6,9 +6,30 @@
     <button> Create NFT </button>
     <img class="content-center w-72 pt-20" src="/img/illustration-generator.png" alt="illustration générateur de NFT" />
   </div>
-  <h3 class="text-blanc-text font-lato text-sm bold pt-40">Discover all</h3>
-  <p class="text-red-600">A FAIRE Cards ...</p>
-  <h2 class="font-nunito-sans text-lg text-blanc-text pb-6 pt-10 text-center">NFT in progress</h2>
+  <h3 class="text-blanc-text font-lato text-sm bold pt-40" id="discover">Discover all</h3>
+
+
+
+  <h2 class="font-nunito-sans text-lg text-blanc-text px-6 lg:px-20 pb-6 pt-10 text-center">Coming Soon...</h2>
+
+  <div class="lg:flex lg:space-x-10 space-x-4 px-6 lg:px-20 lg:pb-20">
+    <img src="/img/offf-date.png" class=" lg:h-1/3 lg:w-1/3" alt="">
+    <p class="font-nunito-sans text-base text-blanc-text px-6 lg:px-20 pb-6 pt-10 text-center">See you on March 20, 2023
+      to
+      have the
+      opportunity to test our NFT generator.</p>
+
+  </div>
+
+
+  <div class="flex lg:space-x-20 space-x-4 px-6 lg:px-20 justify-center">
+    <video class="video w-1/2 md:w-1/6" src="/video/generator-comingsoon.mp4" controls preload="auto"
+      alt="generation comming soon"></video>
+    <h3 class="text-blanc-text font-lato text-md bold pt-40">Video preview</h3>
+  </div>
+
+
+  <h2 class="font-nunito-sans text-lg text-blanc-text pb-6 pt-10 text-center" id="create">NFT in progress</h2>
 
   <div class="carousel relative shadow-2xl">
     <div class="carousel-inner relative overflow-hidden w-full">

@@ -40,22 +40,22 @@ import DropdownItem from '../components/DropdownItem.vue';
 
 
         <div class="lg:flex lg:space-x-10 space-x-4 px-6 z-20   pt-10">
-          <RouterLink to="/generator#create" class="">
+          <a href="/generator#create" class="">
             <button
               class="rounded-7xl h-11 w-32   bg-gradient-to-r from-mauve to-orange inline-flex items-center p-6 hover:shadow-drop/drop-pink">
               <RocketVue />
               <span class="text-blanc-text font-lato text-sm">Create</span>
             </button>
-          </RouterLink>
+          </a>
 
-          <RouterLink to="/generator#explore" class="">
+          <a href="/generator/#explore" class="">
             <button
               class="rounded-7xl h-11 w-32 box-s hover:shadow-drop/drop-white-s  inline-flex items-center py-6 px-2 space-x-2 ">
               <img src="/icons/explore.svg" alt="" class="pl-2 w-8">
               <span class="text-blanc-text font-lato text-sm">Explore all</span>
             </button>
 
-          </RouterLink>
+          </a>
 
         </div>
 

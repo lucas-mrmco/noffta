@@ -5,7 +5,7 @@ import Generator from '../views/Generator.vue';
 import Profil from '../views/Profil.vue';
 import Conditions from '../views/Conditions.vue';
 import Mentions from '../views/Mentions.vue';
-import Page404 from '../views/Page404.vue'
+import Page404 from '../components/Page404.vue'
 
 import Login from '../views/Login.vue'
 import Registration from '../views/Registration.vue'

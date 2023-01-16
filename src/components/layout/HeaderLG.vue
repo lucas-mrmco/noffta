@@ -6,30 +6,30 @@ import BoutonSecondaryA from "../buttons/BoutonSign.vue";
 
 <template>
 
-  <header class="z-50 p-10 text-xl w-full xl:space-x-16 lg:space-x-10 ">
+  <header class="z-50 xl:px-16 p-8 space-x-2  xl:py-10 text-xl w-full xl:space-x-16 lg:space-x-8 ">
     <!-- logo -->
     <div>
-      <RouterLink class="justify-start " to="/"><img src="/logo/logo-ref-standart.svg" class="w-44 pt-5 mx-20"
+      <RouterLink class="justify-start " to="/"><img src="/logo/logo-ref-standart.svg" class="w-44 pt-5 mx-8 xl:ml-16"
           alt="logo noffta"></RouterLink>
     </div>
     <!-- navigation  -->
-    <div class="py-1 px-10 bg-header-texture bg-no-repeat">
+    <div class="py-1 xl:px-10 px-5 bg-header-texture bg-no-repeat">
       <nav class="  ">
         <ul class=" flex space-x-14 font-nunito-sans   text-white   uppercase mt-5 text-sm px-10  ">
           <li class="hover:text-rose">
-            <RouterLink to="#OFFF">
+            <a href="/#OFFF">
               <h2> OFFF</h2>
-            </RouterLink>
+            </a>
           </li>
           <li class="hover:text-rose">
-            <a href="#NFT">
+            <a href="/#NFT">
               <h2> NFT</h2>
             </a>
           </li>
           <li class="hover:text-rose">
-            <RouterLink to="#FAQ">
+            <a href="/#FAQ">
               <h2>FAQ</h2>
-            </RouterLink>
+            </a>
           </li>
           <li class="hover:text-rose">
             <RouterLink to="/contact">
@@ -41,12 +41,12 @@ import BoutonSecondaryA from "../buttons/BoutonSign.vue";
       </nav>
     </div>
     <!-- 2 boutons -->
-    <div class="  space-x-8 justify-end">
+    <div class="space-x-5  xl:space-x-8 justify-end">
       <!-- <BoutonGenerator /> -->
       <!-- <BoutonSignIn /> -->
 
       <RouterLink to="/generator" class="">
-        <button class="text-white hover:text-rose items-center z-10 h-11 w-44 text-center text-sm wave-btn"
+        <button class="text-white hover:text-rose items-center z-10 h-2/5 w-2/5 text-center text-sm wave-btn"
           type="button">
 
           <div class="flex items-center justify-center ">
@@ -59,7 +59,7 @@ import BoutonSecondaryA from "../buttons/BoutonSign.vue";
       </RouterLink>
 
       <RouterLink to="/login" class="">
-        <button class="text-white hover:text-rose items-center z-10 h-11 w-44 text-center text-sm " type="button">
+        <button class="text-white hover:text-rose items-center z-10 h-2/5 w-2/5 text-center text-sm " type="button">
 
           <div class="flex items-center justify-center ">
             <BoutonSecondaryA />
