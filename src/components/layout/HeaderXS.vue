@@ -5,9 +5,12 @@
     <RouterLink class="p-4" to="/">
       <img src="/logo/logo-ref-standart.svg" class="w-32 mt-4 " alt="">
     </RouterLink>
-    <nav
-      class="absolute left-0 top-0 bottom-0 right-0 h-screen  -translate-x-full  bg-gradient-to-b from-fond-site to-rose opacity-0 transition duration-300"
-      :class="MenuOpen && '  translate-x-0  opacity-100'">
+    <nav class="absolute left-0 top-0 bottom-0 right-0 h-screen 
+        bg-gradient-to-b from-fond-site to-rose 
+        transition duration-300 transform" :class="{
+          'translate-x-0 opacity-100': MenuOpen,
+          '-translate-x-full opacity-0': !MenuOpen,
+        }">
       <ul
         class="flex text-white text-md gap-8  my-40 font-bold flex-col items-center justify-center text-left  font-nunito-sans ">
 
