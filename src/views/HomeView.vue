@@ -17,7 +17,7 @@ import DropdownItem from '../components/DropdownItem.vue';
 
       <div class="lg:px-36  px-6 ">
 
-        <div class="lg:flex  lg:space-x-32 lg:py-20   lg:pt- pt-24 lg:pb-8 z-0">
+        <div class="lg:flex  lg:space-x-32 lg:py-20   lg:pt- pt-24 lg:pb-8 ">
           <div class="lg:w-2/4 ">
             <h2 class="font-nunito-sans space-y-8 lg:text-xl text-lg text-blanc-text  pb-6 pt-3 ">Noffta
               supports you in
@@ -39,7 +39,7 @@ import DropdownItem from '../components/DropdownItem.vue';
         </div>
 
 
-        <div class="lg:flex lg:space-x-10 space-x-4 px-6   z-30 pt-10">
+        <div class="lg:flex lg:space-x-10 space-x-4 px-6   pt-10">
           <RouterLink to="/generator#create" class="">
             <button
               class="rounded-7xl h-11 w-32   bg-gradient-to-r from-mauve to-orange inline-flex items-center p-6 hover:shadow-drop/drop-pink">
@@ -60,7 +60,7 @@ import DropdownItem from '../components/DropdownItem.vue';
         </div>
 
       </div>
-      <img src="/img/Looper-dk.png" class="-z-50 w-screen -mt-10 lg:-mt-80" alt="looper" />
+      <img src="/img/Looper-dk.png" class=" w-screen -mt-10 lg:-mt-80" alt="looper" />
 
 
       <img src="/img/logos.png" class="pb-28 lg:w-2/3 w-5/6   mx-auto" alt="éléments du projet" />
@@ -79,7 +79,7 @@ import DropdownItem from '../components/DropdownItem.vue';
             generator accessible to festival
             goers and we would like to have a stand to give them a ticket with their nft printed on it.</p>
           <div
-            class="lg:mb-20 lg:w-1/2 lg:left-80 lg:ml-40 w-screen -ml-6 my-6 lg:my-0 lg:h-auto lg:-mt-96 lg:block container  z-10">
+            class="lg:mb-20 lg:w-1/2 lg:left-80 lg:ml-40 w-screen -ml-6 my-6 lg:my-0 lg:h-auto lg:-mt-96 lg:block container z-0 ">
             <maposm />
           </div>
 
@@ -157,8 +157,7 @@ import DropdownItem from '../components/DropdownItem.vue';
                 src="/img/Rectangle.gif" alt="illustration">
 
             </picture> -->
-              <img class="hidden lg:block   rounded-full  lg:z-10  mx-auto  " src="/img/Rectangle.gif"
-                alt="illustration">
+              <img class="hidden lg:block   rounded-full  mx-auto  " src="/img/Rectangle.gif" alt="illustration">
               <!-- <img class="hidden lg:block  w-1/3  r-10 pt-20 " src="/img/Faq.png" alt="background pattern"> -->
             </div>
 
