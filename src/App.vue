@@ -9,9 +9,11 @@ import HeaderLG from './components/layout/HeaderLG.vue';
 
   <HeaderLG class="hidden lg:flex" />
   <HeaderXS class="lg:hidden  " />
+  <div id="app">
+    <router-view />
+  </div>
 
 
-  <RouterView />
 
 </template>
 

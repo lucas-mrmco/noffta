@@ -42,3 +42,9 @@ h2:hover {
 
 } */
 </style>
+
+<script>
+export default {
+  name: 'Page404'
+}
+</script>

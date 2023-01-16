@@ -66,7 +66,7 @@ import DropdownItem from '../components/DropdownItem.vue';
       <img src="/img/logos.png" class="pb-28 lg:w-2/3 w-5/6   mx-auto" alt="éléments du projet" />
 
       <div class="bg-map-barcelone bg-no-repeat bg-contain  bg-center ">
-        <div class="lg:px-36 px-6">
+        <div class="lg:px-36 px-6" id="OFFF">
 
           <h3 class="font-nunito-sans text-lg  text-blanc-text pb-20">What is NOFFTA ?</h3>
           <p class=" text-white italic text-base lg:w-72 w-2/3 pb-12 ">Another way to leave a footstep in the OFFF.</p>
@@ -90,7 +90,7 @@ import DropdownItem from '../components/DropdownItem.vue';
         </div>
 
 
-        <div class="bg-tuto-texture bg-no-repeat pb-3 pt-20 bg-cover ">
+        <div class="bg-tuto-texture bg-no-repeat pb-3 pt-20 bg-cover" id="NFT">
 
           <div class="grid grid-cols-3 lg:pb-28 lg:pt-9 lg:px-60">
             <div class="block lg:-space-y-8">
