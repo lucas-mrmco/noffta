@@ -44,8 +44,9 @@
       <h3 class="text-blanc-text font-lato text-md bold pt-40">Video preview</h3>
     </div>
 
+
     <p class="font-nunito-sans text-base text-blanc-text px-6 lg:px-20 pb-6 pt-10 text-center">You can still view the
-      questions of the form below.</p>
+      provisional questions of the form below.</p>
 
     <h2 class="font-nunito-sans text-lg text-blanc-text pb-6 pt-10 text-center" id="create">NFT in progress</h2>
 

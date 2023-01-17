@@ -146,7 +146,18 @@ export default {
             } catch (error) {
                 alert(error.error_description || error.message);
             }
-        }
+        },
+        // const handleLogin = async () => {
+        //     const { error: signInError } = await supabaseClient.auth?.signIn(
+        //         {
+        //             email: this.email,
+        //             password: this.passwd
+        //         },
+        //         { redirectTo: '/profil' }
+        //     );
+        //     console.log(signInError);
+        // }
+
     }
 }
 
